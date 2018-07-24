@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "997531024507",
+    "firebase_url": "https://lumidiet-b727c.firebaseio.com",
+    "project_id": "lumidiet-b727c",
+    "storage_bucket": "lumidiet-b727c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997531024507:android:781a423d6b8f925f",
+        "android_client_info": {
+          "package_name": "com.doubleh.lumidiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997531024507-4657123osdm1tm22k1bf7e48n59sprbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doubleh.lumidiet",
+            "certificate_hash": "00e3ca454996799dd42d6a826b461c48e51972d0"
+          }
+        },
+        {
+          "client_id": "997531024507-crjq196ik0e3fhc7l1h92cuvfhm4q4fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXRQ3YgQkum8w40mXJmYTVu6hynSdPzw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997531024507-crjq196ik0e3fhc7l1h92cuvfhm4q4fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="207.25dp"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/popup_bg">
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="left"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="15dp"
+            android:lineSpacingExtra="6dp"
+            android:maxLines="5"
+            android:autoLink="all"
+            android:text="1\n2\n3\n4\n5\n6"
+            android:id="@+id/popup_body"/>-->
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/popup_webview"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="62.5dp"
+        android:layout_below="@id/popup_bg"
+        android:background="@color/colorFF0CCB54">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_btn_left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/dont_show_again"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/popup_bg"
+            android:layout_weight="1"
+            android:id="@+id/popup_btn_right">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_bottom_vline"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/ok"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

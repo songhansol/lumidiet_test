@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.StatisticsFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/statistics_rlayout"
+        android:background="@color/colorFFFFFFFF">
+
+        <Button
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/statistics_btn_prev"/>
+
+        <TextView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/usage_statistics"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:id="@+id/statistics_llayout_tap">
+
+            <Button
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/common_tap_left"
+                android:textAllCaps="false"
+                android:text="@string/day"
+                android:textSize="12.5dp"
+                android:textColor="@color/colorFFFFFEFE"
+                android:id="@+id/statistics_btn_days"/>
+
+            <Button
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/common_tap_center_dim"
+                android:textAllCaps="false"
+                android:text="@string/week"
+                android:textSize="12.5dp"
+                android:textColor="@color/colorFF5A5050"
+                android:id="@+id/statistics_btn_week"/>
+
+            <Button
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/common_tap_right_dim"
+                android:textAllCaps="false"
+                android:text="@string/month"
+                android:textSize="12.5dp"
+                android:textColor="@color/colorFF5A5050"
+                android:id="@+id/statistics_btn_month"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/statistics_llayout_tap"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17.75dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginRight="76dp"
+            android:gravity="center"
+            android:id="@+id/statistics_rlayout_top">
+
+            <Button
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/statistics_btn_graph_prev"
+                android:background="@drawable/graph_arrow_prev"/>
+
+            <Button
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/statistics_btn_graph_next"
+                android:background="@drawable/graph_arrow_next"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:includeFontPadding="false"
+                android:text="12/12 ~ 12/12"
+                android:textSize="14.5dp"
+                android:textColor="@color/colorFF2C2C2C"
+                android:id="@+id/statistics_txt_graph_range"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/statistics_rlayout_top" >
+
+            <RelativeLayout
+                android:id="@+id/rlGraphContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorB2000000"
+        android:id="@+id/popup_layer"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+</FrameLayout>

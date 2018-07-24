@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.AccountManagementFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/account_management_rlayout">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/account_management_btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="@string/my_account_manage"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="98dp"
+            android:layout_marginLeft="20.75dp"
+            android:text="Lumidiet0824@hanmail.net"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/account_management_txt_now"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:background="@color/colorFFCECECE"
+            android:id="@+id/account_management_img_line"/>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/account_management_img_line"
+            android:layout_marginTop="13.5dp"
+            android:background="@drawable/common_input_box"
+            android:id="@+id/account_management_rlayout_inputbox">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/color992F2F2F"
+                android:textColor="@color/colorFF2F2F2F"
+                android:textSize="15dp"
+                android:background="@null"
+                android:id="@+id/account_management_edittext_confirm"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/account_management_rlayout_inputbox"
+            android:layout_marginTop="21.25dp"
+            android:clickable="true"
+            android:background="@drawable/selector_myinfo_btn_confirm"
+            android:id="@+id/account_management_btn_confirm">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textAllCaps="false"
+                android:text="@string/confirm"
+                android:textSize="15dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/account_management_btn_confirm"
+            android:layout_marginTop="18.75dp"
+            android:gravity="center"
+            android:text="@string/confirm_check"
+            android:textSize="12.5dp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/account_management_txt_confirm_check"/>
+
+        <!--<RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:background="@drawable/selector_btn_bottom"
+            android:id="@+id/account_management_btn_apply">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/apply"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"
+                android:id="@+id/account_management_txt_apply"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12.5dp"
+                android:layout_toRightOf="@id/account_management_txt_apply"
+                android:background="@drawable/selector_btn_bottom_arrow"
+                android:id="@+id/account_management_img_apply"/>
+
+        </RelativeLayout>-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorB2000000"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:id="@+id/account_management_progress_layer">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/account_management_progress_network" />
+
+    </RelativeLayout>
+
+</FrameLayout>

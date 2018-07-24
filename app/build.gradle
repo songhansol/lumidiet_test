@@ -1,0 +1,103 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.doubleh.lumidiet"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 26
+        versionName "1.1.9"
+    }
+
+    signingConfigs {
+        keyConfig {
+            keyAlias 'lumidiet'
+            keyPassword 'lumidiet'
+            storeFile file('lumi.jks')
+            storePassword 'lumidiet'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.keyConfig
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.keyConfig
+
+            applicationVariants.all {
+                variant -> variant.outputs.all {
+                    def formattedDate = new Date().format('yyyyMMdd')
+                    outputFileName = "lumidiet_v" + variant.versionName + "_" + variant.buildType.name + "_" + formattedDate + ".apk"
+                }
+            }
+        }
+    }
+
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':ViewPagerIndicator')
+//    implementation project(path: ':PhotoView')
+    //추가한 라인(계속 업그레이드 되고 있다.)
+    //서버로 데이터를 보낼때 okhttp를 사용한다면 추가
+    //implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+
+    def playServiceVersion = '15.0.2'
+
+    implementation "com.android.support:cardview-v7:$supportLibraryVersion"
+    implementation "com.android.support:customtabs:${supportLibraryVersion}"
+    implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
+    implementation "com.android.support:support-v4:${supportLibraryVersion}"
+    implementation "com.android.support:design:${supportLibraryVersion}"
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'no.nordicsemi.android:dfu:1.6.1'
+    implementation 'com.facebook.android:facebook-android-sdk:4.33.0'
+    implementation 'org.jsoup:jsoup:1.10.1'
+    implementation "com.google.firebase:firebase-messaging:${playServiceVersion}"
+    testImplementation 'junit:junit:4.12'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.4@aar') {
+        transitive = true
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,22 @@
+body { font-size:12px;  color:#454545; margin-top:0;  }
+
+.title { text-align:center; line-height: 30px !important;padding:0px 10px 0px 10px; font-size: 16px !important; color:#000000;font-family:"Malgun Gothic","Dotum","Gulim,Helvetica","sans-serif";}
+.title a {color:#000000;text-decoration:none;}
+.title:hover {color:#000000;text-decoration:none;}
+.title:active {color:#000000;text-decoration:none;}
+.title:visited {color:#000000;text-decoration:none;}
+
+.content { text-align:center;padding:10px 10px 0px 10px; font-size: 14px !important; color:#000000;font-family:"Malgun Gothic","Dotum","Gulim,Helvetica","sans-serif";}
+
+.table_a { position:relative;float:left;width:500px; text-align:center;border:1px solid #dedede}
+
+.table_c {width:320px; text-align:left; border-collapse:separate; border-width: 1px; border-style: solid;  border-color: #FFFFFF #FFFFFF #dedede #FFFFFF;}
+
+.table_s {width:320px; text-align:left; border-collapse:separate; border-width: 0px; border-style: solid;  border-color: #FFFFFF #FFFFFF #dedede #FFFFFF;}
+
+.table_w {width:320px;text-align:left;padding:10px 5px 10px 5px;}
+.table_w1 {width:320px;text-align:left;padding:0px 5px 0px 5px;}
+.table_w2 {width:320px;text-align:center;padding:0px 5px 0px 5px;}
+
+.table_m {width:320px;text-align:left;padding:0px 0px 0px 0px;}
+

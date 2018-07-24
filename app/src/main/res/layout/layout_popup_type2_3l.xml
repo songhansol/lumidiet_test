@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="201.25dp"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/popup_type2_3l_bg">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29.5dp"
+            android:src="@drawable/common_warning"
+            android:id="@+id/popup_type2_3l_img_warning"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/popup_type2_3l_img_warning"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="15dp"
+            android:lineSpacingExtra="6dp"
+            android:id="@+id/popup_type2_3l_body"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="62.5dp"
+        android:layout_below="@id/popup_type2_3l_bg"
+        android:background="@color/colorFF0CCB54"
+        android:id="@+id/popup_type2_3l_btn_ok">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ok"
+            android:textSize="20dp"
+            android:textColor="@color/colorFFFFFFFF"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="262.25dp"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/popup_type8_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.75dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:text="@string/measure_guide_top"
+                    android:textColor="@color/colorFFFF0042"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7.75dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:text="@string/male"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2C2C2C"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="119.75dp"
+                    android:text="@string/female"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2C2C2C"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="94dp"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorFF009688"
+                        android:id="@+id/radio_male" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="138.75dp"
+                        android:buttonTint="@color/colorFF009688"
+                        android:id="@+id/radio_female"/>
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7.75dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:text="@string/age"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2C2C2C"/>
+
+                <EditText
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25.25dp"
+                    android:background="@drawable/popup_input_box"
+                    android:paddingRight="17dp"
+                    android:paddingLeft="17dp"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"
+                    android:hint="1 ~ 200"
+                    android:textColorHint="@color/colorFFCECECE"
+                    android:id="@+id/input_age"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7.75dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:text="@string/height"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2C2C2C"/>
+
+                <EditText
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25.25dp"
+                    android:background="@drawable/popup_input_box"
+                    android:paddingRight="17dp"
+                    android:paddingLeft="17dp"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"
+                    android:hint="50 ~ 250"
+                    android:textColorHint="@color/colorFFCECECE"
+                    android:id="@+id/input_height"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7.75dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:text="@string/weight"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2C2C2C"/>
+
+                <EditText
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25.25dp"
+                    android:background="@drawable/popup_input_box"
+                    android:paddingRight="17dp"
+                    android:paddingLeft="17dp"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"
+                    android:hint="20 ~ 250"
+                    android:textColorHint="@color/colorFFCECECE"
+                    android:id="@+id/input_weight"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9.75dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/measure_guide_bot"
+                    android:textSize="10dp"
+                    android:textColor="@color/colorFF2C2C2C"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="62.5dp"
+        android:layout_below="@id/popup_type8_bg"
+        android:background="@color/colorFF0CCB54">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_type8_btn_left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/stop"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_type8_btn_right">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_bottom_vline"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/measure"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

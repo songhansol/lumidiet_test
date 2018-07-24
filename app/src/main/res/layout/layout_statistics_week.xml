@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:layout_gravity="center|top"
+    android:id="@+id/statistics_rlayout_week">
+
+    <!--top graph-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/weeks_graph_top"
+            android:textSize="13.75dp"
+            android:textColor="@color/colorFF2C2C2C"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="7.75dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="7.75dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/graph_week_bg"
+        android:id="@+id/statistics_week_img_graph_bg_top"/>
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@id/statistics_week_img_graph_bg_top"
+        android:layout_marginLeft="@dimen/week_graph_start_margin"
+        android:id="@+id/statistics_week_rlayout_graph_1_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_1_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_1_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_1_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_1_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/1"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_1_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_2_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_2_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_2_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_2_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_2_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_2_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_2_top"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/2\n~\n12/8"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_2_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_2_top"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_2_top"
+        android:layout_marginLeft="@dimen/week_graph_margin_3th"
+        android:id="@+id/statistics_week_rlayout_graph_3_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_3_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_3_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_3_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_3_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_3_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_3_top"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/9\n~\n12/15"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_3_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_3_top"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_3_top"
+        android:layout_marginLeft="@dimen/week_graph_margin_4th"
+        android:id="@+id/statistics_week_rlayout_graph_4_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_4_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_4_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_4_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_4_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_4_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_4_top"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/16\n~\n12/22"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_4_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_4_top"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_4_top"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_5_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_5_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_5_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_5_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_5_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_5_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_5_top"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/23\n~\n12/29"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_5_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_5_top"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_5_top"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_6_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_6_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_6_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_6_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_6_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_6_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_6_top"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/30\n~\n12/31"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_6_top"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_top"
+        android:layout_alignTop="@id/statistics_txt_graph_usage_time_6_top"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/statistics_img_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/selector_img_statistics_top" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/statistics_week_img_graph_bg_top"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_6_top"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_6_top"
+        android:gravity="right|center_vertical">
+        <TextView
+            android:id="@+id/statistics_txt_top"
+            android:layout_width="wrap_content"
+            android:lines="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/common_time_icon"
+            android:gravity="center"
+            android:text="@string/encourage"
+            android:textColor="@color/colorFFFFFFFF"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+
+    <!--bottom graph-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/weeks_graph_bot"
+            android:textSize="13.75dp"
+            android:textColor="@color/colorFF2C2C2C"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="28.5dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="28.5dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_top"
+        android:layout_marginTop="87.75dp"
+        android:src="@drawable/graph_week_bg"
+        android:id="@+id/statistics_week_img_graph_bg_bottom"/>
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@id/statistics_week_img_graph_bg_bottom"
+        android:layout_marginLeft="@dimen/week_graph_start_margin"
+        android:id="@+id/statistics_week_rlayout_graph_1_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_1_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_1_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_1_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_1_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/1"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_1_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_2_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_2_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_2_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_2_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_2_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_2_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_2_bottom"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/2\n~\n12/8"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_2_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_2_bottom"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_2_bottom"
+        android:layout_marginLeft="@dimen/week_graph_margin_3th"
+        android:id="@+id/statistics_week_rlayout_graph_3_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_3_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_3_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_3_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_3_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_3_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_3_bottom"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/9\n~\n12/15"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_3_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_3_bottom"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_3_bottom"
+        android:layout_marginLeft="@dimen/week_graph_margin_4th"
+        android:id="@+id/statistics_week_rlayout_graph_4_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_4_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_4_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_4_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_4_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_4_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_4_bottom"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/16\n~\n12/22"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_4_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_4_bottom"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_4_bottom"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_5_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_5_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_5_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_5_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_5_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_5_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_5_bottom"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/23\n~\n12/29"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_5_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_5_bottom"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_5_bottom"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_6_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_6_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_6_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_6_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_6_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_6_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_6_bottom"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/30\n~\n12/31"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_6_bottom"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/statistics_week_rlayout_graph_1_bottom"
+        android:layout_alignTop="@+id/statistics_txt_graph_usage_time_6_bottom"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/statistics_days_rlayout_graph_1_bottom"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="18.25dp"
+            android:src="@drawable/common_ldi_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_days_rlayout_graph_1_bottom"
+        android:layout_below="@id/statistics_txt_graph_usage_time_7_bottom"
+        android:layout_alignTop="@id/statistics_week_img_graph_bg_bottom"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_6_bottom"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_6_bottom"
+        android:gravity="right|center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_time_icon"
+            android:gravity="center"
+            android:layout_marginRight="12dp"
+            android:text="@string/standard"
+            android:textColor="@color/colorFFFFFFFF"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <!--pedometer graph-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/weeks_graph_pedometer"
+            android:textSize="13.75dp"
+            android:textColor="@color/colorFF2C2C2C"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="28.5dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="28.5dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_week_txt_graph_week_1_bottom"
+        android:layout_marginTop="87.75dp"
+        android:src="@drawable/graph_week_bg"
+        android:id="@+id/statistics_week_img_graph_bg_pedometer"/>
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@id/statistics_week_img_graph_bg_pedometer"
+        android:layout_marginLeft="@dimen/week_graph_start_margin"
+        android:id="@+id/statistics_week_rlayout_graph_1_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_1_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_1_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_1_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_1_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/1"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_1_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_2_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_2_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_2_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_2_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_2_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_2_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_2_pedometer"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/2\n~\n12/8"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_2_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_2_pedometer"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_2_pedometer"
+        android:layout_marginLeft="@dimen/week_graph_margin_3th"
+        android:id="@+id/statistics_week_rlayout_graph_3_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_3_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_3_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_3_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_3_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_3_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_3_pedometer"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/9\n~\n12/15"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_3_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_3_pedometer"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_3_pedometer"
+        android:layout_marginLeft="@dimen/week_graph_margin_4th"
+        android:id="@+id/statistics_week_rlayout_graph_4_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_4_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_4_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_4_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_4_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_4_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_4_pedometer"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/16\n~\n12/22"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_4_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_4_pedometer"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_4_pedometer"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_5_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_5_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_5_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_5_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_5_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_5_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_5_pedometer"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/23\n~\n12/29"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_5_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_5_pedometer"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_5_pedometer"
+        android:layout_marginLeft="@dimen/week_graph_margin"
+        android:id="@+id/statistics_week_rlayout_graph_6_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_6_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_6_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_6_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_6_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_6_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_week_rlayout_graph_6_pedometer"
+        android:layout_alignBaseline="@id/statistics_week_txt_graph_week_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center|top"
+        android:text="12/30\n~\n12/31"
+        android:lineSpacingExtra="-5dp"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_week_txt_graph_week_6_pedometer"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/statistics_txt_graph_usage_time_6_pedometer"
+        android:layout_above="@+id/statistics_week_rlayout_graph_1_pedometer"
+        android:layout_alignTop="@+id/statistics_txt_graph_usage_time_6_pedometer"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4.25dp"
+            android:textColor="#00AA00"
+            android:textSize="6.5dp"
+            android:text="K Steps"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_txt_graph_usage_time_7_pedometer"
+        android:layout_alignTop="@id/statistics_week_img_graph_bg_pedometer"
+        android:layout_alignBottom="@id/statistics_week_rlayout_graph_6_pedometer"
+        android:layout_toRightOf="@id/statistics_week_rlayout_graph_6_pedometer"
+        android:gravity="right|center_vertical">
+
+        <TextView
+            android:id="@+id/tvMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_time_icon"
+            android:gravity="center"
+            android:layout_marginRight="12dp"
+            android:text="@string/standard"
+            android:textColor="@color/colorFFFFFFFF"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

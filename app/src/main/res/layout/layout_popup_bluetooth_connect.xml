@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/activity_width"
+                android:layout_height="@dimen/activity_height"
+                android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="170dp"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/popup_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="15dp"
+            android:lineSpacingExtra="6dp"
+            android:textStyle="bold"
+            android:text="@string/bluetooth_on_title"
+            android:id="@+id/title1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="12dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/bluetooth_on_body1"
+            android:id="@+id/body1"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/body1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/selector_btn_agree"
+            android:id="@+id/chk_btn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/body1"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="12dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/belt_auto_connect_body2"
+            android:id="@+id/body2"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="62.5dp"
+        android:background="@color/colorFF0CCB54"
+        android:layout_below="@id/popup_bg"
+        android:layout_alignStart="@id/popup_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_cancel">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/cancel"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_ok">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_bottom_vline"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/connect"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

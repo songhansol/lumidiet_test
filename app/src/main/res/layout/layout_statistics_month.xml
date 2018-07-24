@@ -1,0 +1,2473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:layout_gravity="center|top"
+    android:id="@+id/statistics_rlayout_month">
+
+    <!--top graph-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/months_graph_top"
+            android:textSize="13.75dp"
+            android:textColor="@color/colorFF2C2C2C"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="7.75dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="7.75dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/graph_month_bg"
+        android:id="@+id/statistics_month_img_graph_bg_top"/>
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@id/statistics_month_img_graph_bg_top"
+        android:layout_marginLeft="@dimen/month_graph_start_margin"
+        android:id="@+id/statistics_month_rlayout_graph_1_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_1_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_1_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_1_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_1_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_1_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_1_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_2_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_2_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_2_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_2_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_2_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_2_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_2_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_2_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_2_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_2_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_2_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_2_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_3_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_3_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_3_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_3_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_3_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_3_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_3_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_3_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_3_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_3_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_3_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_3_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_4_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_4_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_4_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_4_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_4_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_4_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_4_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_4_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_4_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_4_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_4_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_4_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_5_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_5_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_5_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_5_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_5_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_5_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_5_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_5_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_5_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_5_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_5_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_5_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_6_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_6_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_6_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_6_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_6_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_6_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_6_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_6_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_6_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_6_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_6_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_6_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_7_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_7_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_7_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_7_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_7_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_7_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_7_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_7_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_7_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="7"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_7_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_7_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_7_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_8_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_8_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_8_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_8_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_8_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_8_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_8_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_8_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_8_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_8_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_8_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_8_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_9_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_9_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_9_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_9_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_9_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_9_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_9_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_9_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_9_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="9"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_9_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_9_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_9_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_10_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_10_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_10_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_10_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_10_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_10_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_10_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_10_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_10_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_10_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_10_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_10_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_11_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_11_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_11_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_11_top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_11_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_11_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_11_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_11_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_11_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="11"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_11_top"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_11_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_11_top"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_12_top">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_12_top"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_12_top"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_12_top" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignTop="@id/statistics_txt_graph_usage_time_12_top"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/statistics_img_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/selector_img_statistics_top" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/statistics_month_img_graph_bg_top"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_11_top"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_12_top"
+        android:gravity="right|center_vertical">
+    <TextView
+        android:id="@+id/statistics_txt_top"
+        android:layout_width="wrap_content"
+        android:lines="1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/common_time_icon"
+        android:gravity="center"
+        android:text="@string/encourage"
+        android:textColor="@color/colorFFFFFFFF"
+        android:textSize="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_12_top"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="14.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_12_top"/>
+    <com.doubleh.lumidiet.utils.CrownButton
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="16.25dp"
+        android:layout_height="12.25dp"
+        android:layout_above="@id/statistics_txt_graph_usage_time_1_top"
+        android:layout_alignLeft="@id/statistics_txt_graph_usage_time_12_top"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/selector_btn_graph_crown"
+        android:visibility="invisible"
+        android:id="@+id/statistics_btn_crown_12_top"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_top"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_12_top"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="12"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_12_top"/>
+
+
+
+
+    <!--bottom graph-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/months_graph_bot"
+            android:textSize="13.75dp"
+            android:textColor="@color/colorFF2C2C2C"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_top"
+        android:layout_marginTop="104.25dp"
+        android:src="@drawable/graph_month_bg"
+        android:id="@+id/statistics_month_img_graph_bg_bottom"/>
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@id/statistics_month_img_graph_bg_bottom"
+        android:layout_marginLeft="@dimen/month_graph_start_margin"
+        android:id="@+id/statistics_month_rlayout_graph_1_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_1_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_1_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_1_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_1_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_1_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_2_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_2_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_2_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_2_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_2_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_2_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_2_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_2_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_2_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_2_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_3_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_3_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_3_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_3_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_3_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_3_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_3_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_3_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_3_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_3_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_4_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_4_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_4_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_4_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_4_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_4_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_4_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_4_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_4_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_4_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_5_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_5_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_5_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_5_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_5_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_5_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_5_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_5_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_5_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_5_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_6_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_6_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_6_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_6_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_6_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_6_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_6_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_6_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_6_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_6_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_7_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_7_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_7_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_7_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_7_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_7_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_7_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="7"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_7_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_7_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_7_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_8_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_8_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_8_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_8_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_8_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_8_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_8_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_8_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_8_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_8_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_9_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_9_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_9_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_9_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_9_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_9_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_9_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="9"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_9_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_9_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_9_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_10_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_10_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_10_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_10_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_10_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_10_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_10_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_10_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_10_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_10_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_11_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_11_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_11_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_11_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_11_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_11_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_11_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="11"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_11_bottom"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_11_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_11_bottom"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_12_bottom">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_12_bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_12_bottom"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_12_bottom" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_12_bottom"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="12dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_12_bottom"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_12_bottom"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="12"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_12_bottom"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/statistics_month_rlayout_graph_1_bottom"
+        android:layout_alignTop="@+id/statistics_txt_graph_usage_time_7_bottom"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/statistics_days_rlayout_graph_1_bottom"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="18.25dp"
+            android:src="@drawable/common_ldi_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_days_rlayout_graph_1_bottom"
+        android:layout_below="@id/statistics_txt_graph_usage_time_7_bottom"
+        android:layout_alignTop="@id/statistics_month_img_graph_bg_bottom"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_11_bottom"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_12_bottom"
+        android:gravity="right|center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_time_icon"
+            android:gravity="center"
+            android:layout_marginRight="12dp"
+            android:text="@string/standard"
+            android:textColor="@color/colorFFFFFFFF"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <!--pedometer graph-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/months_graph_pedometer"
+            android:textSize="13.75dp"
+            android:textColor="@color/colorFF2C2C2C"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/graph_title_line"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/statistics_month_txt_graph_month_1_bottom"
+        android:layout_marginTop="104.25dp"
+        android:src="@drawable/graph_month_bg"
+        android:id="@+id/statistics_month_img_graph_bg_pedometer"/>
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@id/statistics_month_img_graph_bg_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_start_margin"
+        android:id="@+id/statistics_month_rlayout_graph_1_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_1_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_1_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_1_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_1_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_1_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_2_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_2_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_2_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_2_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_2_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_2_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_2_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_2_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_2_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_2_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_3_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_3_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_3_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_3_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_3_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_3_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_3_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_3_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_3_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_3_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_4_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_4_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_4_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_4_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_4_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_4_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_4_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_4_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_4_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_4_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_5_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_5_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_5_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_5_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_5_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_5_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_5_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_5_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_5_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_5_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_6_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_6_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_6_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_6_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_6_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_6_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_6_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_6_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_6_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_6_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_7_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_7_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_7_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_7_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_7_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_7_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_7_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="7"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_7_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_7_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_7_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_8_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_8_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_8_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_8_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_8_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_8_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_8_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_8_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_8_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_8_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_9_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_9_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_9_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_9_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_9_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_9_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_9_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="9"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_9_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_9_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_9_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_10_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_10_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_10_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_10_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_10_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_10_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_10_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_10_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_10_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_10_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_11_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_11_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_11_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_11_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_11_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_11_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_11_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="11"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_11_pedometer"/>
+
+
+    <RelativeLayout
+        android:layout_width="7.5dp"
+        android:layout_height="104dp"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_11_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_11_pedometer"
+        android:layout_marginLeft="@dimen/month_graph_margin"
+        android:id="@+id/statistics_month_rlayout_graph_12_pedometer">
+
+        <ImageView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_pedometer_graph_bar"
+            android:id="@+id/statistics_img_graph_bar_12_pedometer"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/statistics_img_graph_bar_12_pedometer"
+            android:layout_marginBottom="-3.75dp"
+            android:src="@drawable/selector_graph_dot"
+            android:id="@+id/statistics_img_graph_dot_12_pedometer" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:minWidth="28dp"
+        android:minHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_12_pedometer"
+        android:layout_marginLeft="-10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="99"
+        android:textSize="8.5dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_txt_graph_usage_time_12_pedometer"/>
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignLeft="@id/statistics_month_rlayout_graph_12_pedometer"
+        android:layout_alignBaseline="@id/statistics_month_txt_graph_month_1_pedometer"
+        android:layout_marginLeft="-12.5dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:text="12"
+        android:textSize="11.25dp"
+        android:textColor="@color/colorFF2C2C2C"
+        android:id="@+id/statistics_month_txt_graph_month_12_pedometer"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/statistics_txt_graph_usage_time_12_pedometer"
+        android:layout_above="@+id/statistics_month_rlayout_graph_1_pedometer"
+        android:layout_alignTop="@+id/statistics_txt_graph_usage_time_12_pedometer"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6.25dp"
+            android:textColor="#00AA00"
+            android:textSize="6.5dp"
+            android:text="K Steps"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statistics_days_rlayout_graph_1_pedometer"
+        android:layout_below="@id/statistics_txt_graph_usage_time_7_pedometer"
+        android:layout_alignTop="@id/statistics_month_img_graph_bg_pedometer"
+        android:layout_alignBottom="@id/statistics_month_rlayout_graph_11_pedometer"
+        android:layout_toRightOf="@id/statistics_month_rlayout_graph_12_pedometer"
+        android:gravity="right|center_vertical">
+
+        <TextView
+            android:id="@+id/tvMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_time_icon"
+            android:gravity="center"
+            android:layout_marginRight="12dp"
+            android:text="@string/standard"
+            android:textColor="@color/colorFFFFFFFF"
+            android:textSize="8.5dp" />
+    </LinearLayout>
+</RelativeLayout>

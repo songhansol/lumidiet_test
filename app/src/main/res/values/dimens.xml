@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_bottom_btn_height">17.50dp</dimen>
+    <dimen name="activity_width">360dp</dimen>
+    <dimen name="activity_height">640dp</dimen>
+    <dimen name="main_graph_height">104dp</dimen>
+    <dimen name="main_graph_space_width">27.5dp</dimen>
+    <dimen name="month_graph_margin">16.2dp</dimen>
+    <dimen name="day_graph_margin">36.2dp</dimen>
+    <dimen name="week_graph_margin">45.165dp</dimen>
+    <dimen name="week_graph_margin_3th">45.20dp</dimen>
+    <dimen name="week_graph_margin_4th">45.25dp</dimen>
+    <dimen name="day_graph_start_margin">44.15dp</dimen>
+    <dimen name="month_graph_start_margin">44.15dp</dimen>
+    <dimen name="week_graph_start_margin">44.15dp</dimen>
+</resources>

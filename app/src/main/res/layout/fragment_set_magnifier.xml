@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="@dimen/activity_width"
+             android:layout_height="@dimen/activity_height"
+             android:layout_gravity="center"
+             android:clickable="true"
+             tools:context="com.doubleh.lumidiet.SetMagnifierFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="@string/set_magnifier"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53.5dp"
+            android:layout_marginTop="95dp"
+            android:text="@string/mag_activation"
+            android:textSize="18dp"
+            android:textColor="@color/colorFF2F2F2F"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="85dp"
+            android:layout_marginRight="19.75dp"
+            android:background="@drawable/selector_btn_alarm_setting"
+            android:id="@+id/btn_mag_activation"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mag_info"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="400dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="15.25dp"
+            android:text="@string/mag_info"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

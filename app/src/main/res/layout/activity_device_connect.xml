@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@+id/device_connect_activity">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/device_connect_rlayout">
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="111.75dp"
+            android:background="@color/colorFFFFFFFF"
+            android:id="@+id/device_connect_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33.75dp"
+                android:gravity="center"
+                android:text="@string/find_devices_msg"
+                android:textSize="12.5dp"
+                android:textColor="@color/colorFF2F2F2F"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="78dp"
+                android:gravity="center"
+                android:text="@string/find_devices_turnoff_msg"
+                android:textSize="11.25dp"
+                android:textColor="@color/colorFFFF3C00" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorFFCECECE"/>
+
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="335dp"
+            android:layout_height="129.25dp"
+            android:layout_below="@id/device_connect_top"
+            android:divider="@color/colorFFCECECE"
+            android:dividerHeight="0.5dp"
+            android:background="@color/colorFFFFFFFF"
+            android:id="@+id/device_connect_listview"/>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="62.5dp"
+            android:layout_below="@id/device_connect_listview"
+            android:background="@color/colorFF0CCB54"
+            android:clickable="true"
+            android:id="@+id/device_connect_btn_connect">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/connect"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:id="@+id/device_connect_flayout"/>
+
+</RelativeLayout>

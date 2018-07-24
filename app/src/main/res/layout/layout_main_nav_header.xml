@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290.25dp"
+    android:layout_height="@dimen/activity_height"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="horizontal"
+    android:background="@color/colorFFFBFBFB"
+    android:gravity="top">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu_top_bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:id="@+id/main_rlayout_left_menu_header">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="42.5dp"
+            android:layout_height="42.5dp"
+            android:layout_marginTop="31.5dp"
+            android:layout_marginLeft="8.75dp"
+            android:src="@drawable/profile_bg1"
+            android:id="@+id/main_left_menu_img_profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46.5dp"
+            android:layout_marginLeft="62.5dp"
+            android:includeFontPadding="false"
+            android:text="Lumidiet0824@hanmail.net"
+            android:textColor="@color/colorFF00BD47"
+            android:textSize="15dp"
+            android:id="@+id/main_left_menu_txt_id" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_rlayout_left_menu_header">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_home"
+            android:gravity="bottom|center"
+            android:paddingBottom="16.75dp"
+            android:textAllCaps="false"
+            android:text="@string/home"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_home"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/main_left_menu_btn_home"
+            android:background="@drawable/selector_left_menu_btn_measure_ldi"
+            android:gravity="bottom|center"
+            android:paddingBottom="16.75dp"
+            android:textAllCaps="false"
+            android:text="@string/measure_ldi"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_measure_ldi"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_usage_statistics"
+            android:layout_below="@id/main_left_menu_btn_home"
+            android:gravity="bottom|center"
+            android:paddingBottom="16.75dp"
+            android:textAllCaps="false"
+            android:text="@string/usage_statistics"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_usage_statistics"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/main_left_menu_btn_usage_statistics"
+            android:layout_alignBottom="@id/main_left_menu_btn_usage_statistics"
+            android:background="@drawable/selector_left_menu_btn_notice"
+            android:gravity="bottom|center"
+            android:paddingBottom="16.75dp"
+            android:textAllCaps="false"
+            android:text="@string/notice"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_notice"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_diet_info"
+            android:layout_below="@id/main_left_menu_btn_usage_statistics"
+            android:gravity="left|center"
+            android:paddingLeft="68dp"
+            android:textAllCaps="false"
+            android:text="@string/diet_info"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_diet_info"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_guide"
+            android:layout_below="@id/main_left_menu_btn_diet_info"
+            android:gravity="left|center"
+            android:paddingLeft="68dp"
+            android:textAllCaps="false"
+            android:text="@string/product_instructions"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_guide"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_setting"
+            android:layout_below="@id/main_left_menu_btn_guide"
+            android:gravity="left|center"
+            android:paddingLeft="68dp"
+            android:textAllCaps="false"
+            android:text="@string/setting"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_setting"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_my_info"
+            android:layout_below="@id/main_left_menu_btn_setting"
+            android:gravity="left|center"
+            android:paddingLeft="68dp"
+            android:textAllCaps="false"
+            android:text="@string/my_info"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_my_info"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_support"
+            android:layout_below="@id/main_left_menu_btn_my_info"
+            android:gravity="left|center"
+            android:paddingLeft="68dp"
+            android:textAllCaps="false"
+            android:text="@string/support"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_support"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_left_menu_btn_app_info"
+            android:layout_below="@id/main_left_menu_btn_support"
+            android:gravity="left|center"
+            android:paddingLeft="68dp"
+            android:textAllCaps="false"
+            android:text="@string/app_info"
+            android:textColor="@color/colorFF2A2A2A"
+            android:textSize="13.75dp"
+            android:id="@+id/main_left_menu_btn_app_info"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

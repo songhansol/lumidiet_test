@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center|top"
+    android:gravity="center|top"
+    android:id="@+id/main_activity_disconnect">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="103.25dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32.5dp"
+            android:background="@drawable/main_warning_icon1"
+            android:id="@+id/main_img_warning"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/main_img_warning"
+            android:layout_marginTop="14.75dp"
+            android:layout_marginBottom="-2dp"
+            android:includeFontPadding="false"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:gravity="center"
+            android:text="@string/belt_disconnect"
+            android:textSize="13.75dp"
+            android:textColor="@color/color992C2C2C"
+            android:id="@+id/main_txt_disconnect" />
+
+        <Button
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:layout_below="@id/main_txt_disconnect"
+            android:drawableRight="@drawable/common_btn_main_arrow"
+            android:drawablePadding="-2dp"
+            android:paddingRight="7.5dp"
+            android:textAllCaps="false"
+            android:text="@string/connecting"
+            android:textColor="@color/colorFF2C2C2C"
+            android:textSize="11.25dp"
+            android:gravity="center"
+            android:background="@drawable/selector_btn_round2"
+            android:id="@+id/main_btn_connect"/>
+
+        <ImageView
+            android:layout_width="182.5dp"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/main_btn_connect"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorFFCECECE"
+            android:id="@+id/main_img_line"/>
+
+        <include layout="@layout/pedometer_info" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

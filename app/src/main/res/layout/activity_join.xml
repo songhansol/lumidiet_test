@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.co5m/tools"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:id="@+id/join_activity"
+    android:background="@color/colorFFFFFFFF"
+    android:onClick="onLayoutClick"
+    tools:context="com.doubleh.lumidiet.JoinActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/join_btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/join"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <Button
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginRight="14.75dp"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/join_agree_btn_off"
+            android:drawablePadding="6.75dp"
+            android:textAllCaps="false"
+            android:text="@string/agree"
+            android:textSize="12.5dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:gravity="right"
+            android:background="@null"
+            android:id="@+id/join_btn_agree"/>
+
+        <TextView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88.5dp"
+            android:layout_marginLeft="14.75dp"
+            android:gravity="left"
+            android:text="@string/tos_agree"
+            android:textColor="@color/colorFF2C2C2C"
+            android:textSize="12.5dp"
+            android:id="@+id/join_txt_tos_agree"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/join_txt_tos_agree"
+            android:background="@drawable/join_terms_bg"
+            android:id="@+id/join_img_tos_bg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.5dp"
+            android:layout_marginLeft="20.25dp"
+            android:layout_marginRight="20.25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@id/join_img_tos_bg"
+            android:layout_alignLeft="@id/join_img_tos_bg"
+            android:layout_alignRight="@id/join_img_tos_bg"
+            android:height="139.5dp"
+            android:textSize="11dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:scrollbars="vertical"
+            android:lineSpacingExtra="8dp"
+            android:id="@+id/join_txt_tos"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignLeft="@id/join_img_tos_bg"
+            android:layout_alignRight="@id/join_img_tos_bg"
+            android:layout_below="@id/join_img_tos_bg"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorFFCECECE"
+            android:id="@+id/join_img_line"/>
+
+        <TextView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/join_img_line"
+            android:text="@string/id"
+            android:textSize="12.5dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:gravity="left"
+            android:id="@+id/join_txt_id"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/join_txt_id"
+            android:id="@+id/join_rlayout_id">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_input_box"
+                android:id="@+id/join_img_id_input_bg"/>
+
+            <EditText
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17.5dp"
+                android:layout_marginRight="72.75dp"
+                android:layout_marginTop="11dp"
+                android:layout_alignStart="@id/join_img_id_input_bg"
+                android:layout_alignEnd="@id/join_img_id_input_bg"
+                android:maxLines="1"
+                android:hint="@string/id"
+                android:textColorHint="@color/color992F2F2F"
+                android:textSize="15dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorFF2F2F2F"
+                android:background="@null"
+                android:paddingBottom="170dp"
+                android:imeOptions="actionNext"
+                android:id="@+id/join_edittext_id"/>
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/join_img_id_input_bg"
+                android:layout_alignBottom="@id/join_img_id_input_bg"
+                android:textAllCaps="false"
+                android:text="@string/dupl_check"
+                android:textSize="15dp"
+                android:textColor="@color/color99FFFEFE"
+                android:enabled="false"
+                android:background="@drawable/selector_join_btn_dupl_check"
+                android:id="@+id/join_btn_dupl_check"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:layout_below="@id/join_txt_id"
+            android:onClick="onLayoutClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/join_txt_id"
+            android:layout_marginTop="54.25dp"
+            android:text="@string/id_error"
+            android:textSize="11.25dp"
+            android:textColor="@color/colorFFFF3C00"
+            android:visibility="invisible"
+            android:id="@+id/join_txt_id_error"/>
+
+        <TextView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/join_txt_id_error"
+            android:text="@string/pw"
+            android:textSize="12.5dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:gravity="left"
+            android:id="@+id/join_txt_pw"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9.5dp"
+            android:layout_below="@id/join_txt_pw"
+            android:id="@+id/join_rlayout_pw">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_input_box"
+                android:id="@+id/join_img_pw_input_bg"/>
+
+            <EditText
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17.5dp"
+                android:layout_marginTop="11dp"
+                android:layout_alignStart="@id/join_img_pw_input_bg"
+                android:layout_alignEnd="@id/join_img_pw_input_bg"
+                android:hint="@string/pw_words"
+                android:textColorHint="@color/color992F2F2F"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorFF2F2F2F"
+                android:background="@null"
+                android:paddingBottom="75dp"
+                android:imeOptions="actionNext"
+                android:id="@+id/join_edittext_pw"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59.5dp"
+            android:layout_below="@id/join_txt_pw"
+            android:id="@+id/join_rlayout_pw_reconfirm">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_input_box"
+                android:id="@+id/join_img_pw_reconfirm_input_bg"/>
+
+            <EditText
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17.5dp"
+                android:layout_marginTop="11dp"
+                android:layout_alignStart="@id/join_img_pw_reconfirm_input_bg"
+                android:layout_alignEnd="@id/join_img_pw_reconfirm_input_bg"
+                android:hint="@string/pw_reconfirm"
+                android:textColorHint="@color/color992F2F2F"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorFF2F2F2F"
+                android:background="@null"
+                android:paddingBottom="25dp"
+                android:imeOptions="actionDone"
+                android:id="@+id/join_edittext_pw_reconfirm"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/join_rlayout_pw_reconfirm"
+            android:text="@string/pw_error"
+            android:textSize="11.25dp"
+            android:textColor="@color/colorFFFF3C00"
+            android:visibility="invisible"
+            android:id="@+id/join_txt_pw_error"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/common_bottom_btn_dim"
+            android:clickable="true"
+            android:id="@+id/join_btn_join">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/join"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFBCBCBC"
+                android:id="@+id/join_txt_join"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12.5dp"
+                android:layout_toRightOf="@id/join_txt_join"
+                android:background="@drawable/common_bottom_arrow_dim"
+                android:id="@+id/join_img_join"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorB2000000"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:id="@+id/join_progress_layer">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/join_progress_network" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

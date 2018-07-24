@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">Lumidiet</string>
+    <string name="app_name2">MP_Lumidiet</string>
+    <string name="facebook_app_id">1761769457430159</string>
+
+    <string name="login_facebook">Iniciar sesión en Facebook</string>
+    <string name="id">Usuario</string>
+    <string name="pw">Contraseña</string>
+    <string name="loginadd">Login</string>
+    <string name="login_auto">Inicio de sesión automática</string>
+    <string name="join">Membresía</string>
+    <string name="find_pw">Encontrar contraseña</string>
+    <string name="find_pw_title">Introduce la dirección de correo electrónico</string>
+    <string name="find_pw_body">Se enviará una contraseña temporal a la dirección de correo electrónico que ingresó cuando se registró para el servicio.</string>
+    <string name="issue_temporary_pw">Suministro de contraseña temporal</string>
+    <string name="find_pw_err_msg">Este no es un mensaje autenticado</string>
+    <string name="find_pw_ok_msg">Le hemos enviado una contraseña temporal por correo electrónico.</string>
+
+    <string name="tos_agree">Aceptar los Términos del Servicio (requerido)</string>
+    <string name="agree">Aceptar</string>
+    <string name="id_error">El usuario no es válido.</string>
+    <string name="pw_words">6~16 alfanuméricos y caract. especiales </string>
+    <string name="pw_reconfirm">Confirmar contraseña</string>
+    <string name="pw_error">Entre 6 y 16 aracteres.  Debe contener al menos dos letras, numeros, caracteres especiales.</string>
+    <string name="pw_reconfirm_error">La contraseña introducida no coincide con la contraseña reingresada.</string>
+    <string name="next">Siguiente</string>
+    <string name="dupl_check">Repita la confirmación</string>
+
+    <string name="add_info">Ingrese información adicional</string>
+    <string name="add_info_words">Es opcional y se puede ingresar más adelante en la pantalla de configuración.</string>
+    <string name="age">Edad</string>
+    <string name="height">Altura (cm)</string>
+    <string name="weight">Peso (kg)</string>
+    <string name="sex">Sexo</string>
+
+    <string name="connect_info">Conectando.\nPor favor espera un momento</string>
+
+    <string name="minute">Minuto</string>
+    <string name="minute_en">min</string>
+    <string name="second_en">sec</string>
+    <string name="remain">Faltan</string>
+    <string name="accum_usage_time">Tiempo acumulado de uso</string>
+    <string name="usage_time">Tiempo de uso / Numero de pasos</string>
+    <string name="consecutive_days">Cantidad de días continuos :</string>
+    <string name="maximum_days">Días más usados :</string>
+    <string name="ldi">LDI</string>
+    <string name="encourage">Recomendado</string>
+    <string name="encourage_day">15 minutos</string>
+    <string name="encourage_week">4 días</string>
+    <string name="encourage_month">15 días</string>
+    <string name="what_ldi">LDI?</string>
+    <string name="detail">Conozca más</string>
+    <string name="measure_ldi">Medición de LDI</string>
+    <string name="belt_disconnect">Dispositivo no conectado</string>
+    <string name="connect">Conección</string>
+    <string name="connecting">Conectar</string>
+
+    <string name="days_graph_top">Tiempo de uso diario</string>
+    <string name="days_graph_bot">LDI diario</string>
+    <string name="weeks_graph_top">Cantidad de días usados por semana</string>
+    <string name="weeks_graph_bot">LDI promedio semanal</string>
+    <string name="months_graph_top">Cantidad de días de uso activo por mes</string>
+    <string name="months_graph_bot">LDI promedio mensual</string>
+    <string name="usage_statistics">Estadísticas de uso</string>
+    <string name="day">Diario</string>
+    <string name="week">Semanal</string>
+    <string name="month">Mensual</string>
+    <string name="year">Año</string>
+    <string name="average">Promedio</string>
+    <string name="standard">Estándar</string>
+
+    <string name="notice">Aviso</string>
+    <string name="notice_box">Notificado</string>
+    <string name="notice_mybox">Mis notificaciones</string>
+    <string name="notice_mybox_msg">Puede encontrar la respuesta en mi casilla de notificación.</string>
+    <string name="reply">Respuesta</string>
+
+    <string name="diet_info">Información de la dieta</string>
+    <string name="product_instructions">Uso del producto</string>
+
+    <string name="set_alarm">Configuración de notificación</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="repetition">Día repetido</string>
+    <string name="sun">Dom</string>
+    <string name="mon">Lun</string>
+    <string name="tue">Mar</string>
+    <string name="wed">Mie</string>
+    <string name="thu">Jue</string>
+    <string name="fri">Vie</string>
+    <string name="sat">Sáb</string>
+    <string name="noti_msg">¡Es hora de usar el Lumidiet!</string>
+
+    <string name="app_info">Acerca de la aplicación</string>
+    <string name="support">Atención al cliente</string>
+    <string name="support_info">Por favor envíenos su consulta y le responderemos con fidelidad.\nPuede verificar las respuestas en el cuadro de notificación en el menú de notificaciones.</string>
+    <string name="send">Enviar</string>
+    <string name="support_success_msg">Su consulta ha sido registrada con éxito.</string>
+
+    <string name="my_info_manage_success_msg">La información ha sido modificada con éxito.</string>
+    <string name="home">Inicio</string>
+    <string name="my_info">Mi información</string>
+    <string name="my_account_manage">Administrar mi cuenta</string>
+    <string name="my_info_manage">Mi manejo de información</string>
+    <string name="pw_change">Cambiar contraseña</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="confirm">Autenticación</string>
+    <string name="confirm_not_support">El menú de autenticación no está disponible para usuarios de Facebook.</string>
+    <string name="confirm_check">Por favor verifica tu correo electrónico. Debe autenticarse antes de poder encontrar su contraseña.</string>
+    <string name="confirm_ok">Tu verificación de correo electrónico ha sido verificada. Los correos electrónicos autenticados no son modificables.</string>
+    <string name="send_email_msg">Hemos enviado un correo electrónico para solicitar la verificación.</string>
+    <string name="send_email_err_msg">Ya está autenticado. Por favor ingrese una dirección de correo electrónico diferente.</string>
+    <string name="apply">Aplicar</string>
+    <string name="now_pw">Contraseña actual</string>
+    <string name="new_pw">Nueva contraseña</string>
+    <string name="pw_change_not_support">El menú de cambio de contraseña no está disponible para usuarios de Facebook.</string>
+    <string name="pw_change_err_1">La contraseña actual es incorrecta.</string>
+    <string name="pw_change_err_2">La contraseña recién ingresada no coincide con la contraseña reingresada.</string>
+    <string name="pw_change_err_3">La nueva contraseña que ingresó no coincide con ninguno de los 6 a 16 caracteres alfanuméricos o especiales.</string>
+    <string name="pw_change_ok_msg">La contraseña cambió normalmente</string>
+
+    <string name="member_leave">Dejar membresía</string>
+    <string name="member_leave_title">Avisos antes de dejar de ser miembro</string>
+    <string name="member_leave_body">Cuando salga del Lumidiet, toda la información será eliminada, una vez que la información eliminada no pueda ser restaurada.</string>
+    <string name="member_leave_info_title">Información sobre cómo eliminar Lumidiet</string>
+    <string name="member_leave_info_body">- Mi información de perfil\n(nombre, estado, ID, foto de perfil, foto de fondo)\n- Estadísticas de medición y uso de LDI\n- toda la demás información que establezca</string>
+    <string name="del_all_data">Eliminar todos los datos.</string>
+    <string name="lumidiet_leave">Retirada de dieta Lumi</string>
+    <string name="member_leave_err_msg1">La contraseña es incorrecta.</string>
+    <string name="member_leave_ok_msg">Anulado exitosamente.\nLa aplicación se cerrará.</string>
+
+    <string name="guide_info">Guía de usuario</string>
+    <string name="guide_title">Componentes y precauciones</string>
+    <string name="guide_body">Por favor revise los componentes.\nAsegúrese de leer el manual de instrucciones que contiene información de seguridad importante.</string>
+    <string name="read_guide">Lea el Manual del Usuario</string>
+    <string name="jump">Saltar</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="update">Update</string>
+
+    <string name="login_error1">La identificación o contraseña que ingresó no coincide.</string>
+
+    <string name="confirm_add_history">Hay un historial de uso del cinturón no registrado.</string>
+    <string name="confirm_add_history_info">Registra el historial de uso seleccionado.</string>
+    <string name="alert_unused_week_over">LDI no se midió durante la última semana.</string>
+    <string name="alert_low_battery">La batería está actualmente baja y no se puede usar. Por favor, vuelva a utilizar el cinturón después de la carga.</string>
+    <string name="change_standard_date">¿Desea cambiar la fecha base?\n</string>
+    <string name="join_message">Felicitaciones por ser miembro de la Lumidiet. Se requiere verificación de correo electrónico en mi perfil para un servicio sin interrupciones. Si no se autentica, no podrá usar la búsqueda de contraseñas.</string>
+
+    <string name="id_dupl_chk_possible">Puede ser usado el usuario.</string>
+    <string name="id_dupl_chk_impossible">El usuario no puede ser utilizado.</string>
+
+    <string name="find_devices_msg">Hay dos o más cinturones buscados. Por favor, elija su cinturón deseado.</string>
+    <string name="find_devices_turnoff_msg">Desconecte la potencia de la correa no utilizada.</string>
+
+    <string name="belt_use_complete_msg1">¡Gracias!</string>
+    <string name="belt_use_complete_msg2">El uso del cinturón Lumidiet se completó.</string>
+
+    <string name="app_ver_prefix">APP versión actual</string>
+    <string name="app_ver_postfix_last">\nEsta es la versión actual.</string>
+    <string name="app_ver_postfix_new">\nHay una nueva versión.</string>
+    <string name="firmware_prefix">Firmware Versión actual</string>
+    <string name="firmware_postfix">\nEsta es la versión actual.</string>
+    <string name="permission_err">Debes establecer permisos para que la aplicación funcione correctamente.</string>
+    <string name="auto_login_not_support">Los usuarios de Facebook no son compatibles con el inicio de sesión automático.</string>
+    <string name="firmware_update_msg">El firmware de la correa no está actualizado. Actualiza a la última versión. * Nunca apague la corriente mientras se actualiza.</string>
+    <string name="firmware_updating_msg">Actualizando el firmware. (Aproximadamente 1 minuto) No apague la correa.</string>
+    <string name="firmware_update_success_msg">El firmware de la correa se ha actualizado a la última versión. Enciende el cinturón.</string>
+    <string name="firmware_update_err_msg">La actualización del firmware falló. Por favor intente de nuevo</string>
+
+    <string name="exit_msg">Presione el botón Atrás otra vez para salir.</string>
+
+    <string name="measure_first_msg">Usted midió su LDI por primera vez. El valor medido se usa como el valor de referencia.</string>
+    <string name="measure_msg">LDI se está midiendo.\nPor favor, espere un momento.</string>
+    <string name="measure_msg_increase">%1$d월 %2$ddías(Fecha de referencia)\nLDI ha aumentado. \nEl esfuerzo es necesario.</string>
+    <string name="measure_msg_decrease">%1$d월 %2$ddías(Fecha de referencia)\nLDI ha disminuido. \nFelicidades.</string>
+    <string name="measure">Medida</string>
+    <string name="stop">Detener</string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="dont_show_again">No mirar de nuevo.</string>
+    <string name="measure_input_err_msg">Para medir el LDI por favor ingrese edad / altura / peso</string>
+    <string name="network_err_msg">Verifique la configuración de red y vuelva a ejecutar la aplicación.</string>
+
+    <string name="unknown_device">Dispositivo desconocido</string>
+    <string name="error_bluetooth_not_supported">Bluetooth no compatible.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="get_from_album">Seleccionar álbum</string>
+    <string name="photo_shoot">Fotografía</string>
+    <string name="camera_dialog_title">Seleccione la imagen para cargar</string>
+    <string name="connect_cancel">Desconectar</string>
+    <string name="about_ldi">LDI es un índice de grasa corporal Lumidiet que indica cambios relativos de grasa corporal en áreas específicas del cuerpo</string>
+    <string name="title">Título</string>
+    <string name="contents">Contenido</string>
+    <string name="weight_unit">kg</string>
+    <string name="height_unit">cm</string>
+    <string name="measure_guide_top">Sostenga firmemente el sensor de medición.</string>
+    <string name="measure_guide_bot">Puede haber errores según el método de medición y el entorno y la frecuencia de medición.</string>
+    <string name="diet_info_filename">file:///android_asset/main_es.html</string>
+    <string name="product_info_filename">file:///android_asset/product_es.html</string>
+    <string name="measure_msg_same">%1$d월 %2$d일(Fecha de referencia) y \nLDI son iguales. \n Felicidades.</string>
+    <string name="crown_title">Estadísticas mensuales (horas de uso)</string>
+    <string name="crown_subtitle">15 minutos por día</string>
+    <string name="crown_msg1">GOOD cuando se usa por más de 15 días</string>
+    <string name="crown_msg2">GREAT por más de 20 días</string>
+    <string name="crown_msg3">EXCELLENT por 25 días o más</string>
+    <string name="exit">Salir</string>
+    <string name="app_update_msg">Versión anterior de la aplicación.\nPor favor, actualice a la última versión.</string>
+    <string name="memory_err">No hay suficiente memoria.</string>
+    <string name="contact">(Opcional) número de teléfono o correo electrónico</string>
+    <string name="move_link_msg">¿Desea ir al enlace?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="set_magnifier">Ajuste de zoom</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mag_activation">Activar lupa</string>
+    <string name="mag_info">Si habilita la función de lupa, puede ver la pantalla ampliada por 'pellizco'.</string>
+    <string name="input_check_msg">Por favor complete todos los campos.</string>
+    <string name="measure_input_err_msg2">El rango de entrada está fuera de rango. Por favor, vuelva a ingresar.</string>
+    <string name="diet_info_filename2">main_es.html</string>
+    <string name="belt_info">Información de la correa LumiDiet</string>
+    <string name="belt_disconnected">Correa no conectada</string>
+    <string name="firmware">Firmware</string>
+    <string name="model">modelo</string>
+    <string name="confirm_add_history2">Se eliminará todo el historial de uso no seleccionado</string>
+    <string name="permission_body1">Para utilizar LumiDiet, autorize los siguientes permisos.</string>
+    <string name="permission_body2">- 블루투스 : 루미다이어트 벨트와 연결\n- 위치 : 블루투스 BLE 검색을 위한 사용(GPS 정보 수집은 하지 않습니다.)\n- ID : 고객 서비스를 위한 기기 정보 확인\n- 기기 및 앱 기록 : 현재 실재중인 앱 확인\n- 캘린더 : 벨트 사용 기록 생성\n- 저장공간 : 프로필 이미지 및 사용 기록 저장</string>
+    <string name="permission_body3">- Foto / Video / Archivo: selección de imagen de avatar desde el álbum \n- Cámara: Fotografía de la imagen del avatar. \n\nSe requiere autorización para usar esta función, el permiso no permitido también puede ser usado para otras funciones fuera de esta función.</string>
+    <string name="permission_body4">Se pueden cambiar las configuraciones en el menu de LumiDiet</string>
+    <string name="permission_title1">Solicitud de permiso de autorización de LumiDiet</string>
+    <string name="permission_title2">Autorización necesaria</string>
+    <string name="permission_title3">Autorización opcional</string>
+    <string name="permission_title4">Método de cambio del permiso de proximidad</string>
+    <string name="belt_auto_connect_title">Configuración de conexión automática de la correa LumiDiet</string>
+    <string name="belt_auto_connect_body1">Cuando encienda el software LumiDiet, configure la connexion automática a la correa para uso mas facil</string>
+    <string name="belt_auto_connect_body2">active la conexión automática de Bluetooth</string>
+    <string name="bluetooth_on_title">Conexión de Bluetooth</string>
+    <string name="bluetooth_on_body1">Cuando el bluetooth esté desactivado, para conectar a la correa LumiDiet, encienda el Bluetooth.</string>
+    <string name="bluetooth_on_body2">Configure la conexión automática de Bluetooth</string>
+    <string name="setting">Configuraciones</string>
+    <string name="set_bluetooth_auto_connect">Configuración de emparejamiento automático de bluetooth</string>
+    <string name="permission_gallery_title">Permisos de acceso a fotos / videos / archivos</string>
+    <string name="permission_gallery_body">Se usa para seleccionar la imagen de perfil</string>
+    <string name="permission_camera_title">Accesibilidad de la cámara</string>
+    <string name="permission_camera_body">Se usa para tomar la imagen de perfil</string>
+    <string name="ble_auto_activation">Activar emparejamiento automatico de bluetooth</string>
+    <string name="ble_auto_info">Active la función de emparejamiento automático de bluetooth para que su aplicación se empareje con su dispositivo al momento del lanzamiento automáticamente</string>
+    <string name="permission_accept_title">Aceptar el permiso</string>
+    <string name="permission_accept_body">Para cargar una foto de perfil en LumiDiet, se requieren los siguientes permisos.\n\n- Foto / Video / Archivo: seleccione una imagen del álbum\n- Cámara: tome una foto de perfil\n\nSe puede desautorizar en el menú de configuración de LumiDiet</string>
+    <string name="register">Iniciar sesión</string>
+
+    <!-- pedometer -->
+    <string name="goal_reached_notification">¡Meta alcanzada! % s pasos y contando</string>
+    <string name="notification_text">Pasos de hoy %s</string>
+    <string name="your_progress_will_be_shown_here_soon">Tu progreso se mostrará aquí pronto</string>
+    <string name="notification_title">El podómetro está contando</string>
+    <string name="pause">Pausa</string>
+    <string name="resume">Reanudar</string>
+    <string name="ispaused">El podómetro está en pausa</string>
+    <string name="no_sensor">Sensor no encontrado</string>
+    <string name="no_sensor_explain">Esta aplicación requiere un sensor de paso dedicado, que su dispositivo no tiene</string>
+    <string name="use_pedometer">Usa el podómetro</string>
+    <string name="today_stepcount">Pasos tomados hoy</string>
+    <string name="cumulative_stepcount">Pasos acumulados</string>
+    <string name="cumulative_ranking">Rango acumulado</string>
+    <string name="pedometer_off">El podómetro está apagado.</string>
+    <string name="days_graph_pedometer">Pasos diarios</string>
+    <string name="weeks_graph_pedometer">Pasos semanales</string>
+    <string name="months_graph_pedometer">Pasos mensuales</string>
+    <string name="number_of_steps">Numero de pasos</string>
+    <string name="rank">Rango acumulado</string>
+    <string name="goal_steps">Pasos del objetivo</string>
+    <string name="enable_pedometer">Configuraciones de podómetro</string>
+    <string name="using_the_pedometer">Usar podómetro</string>
+</resources>

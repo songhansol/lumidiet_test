@@ -1,0 +1,226 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.InfoManagementFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/info_management_rlayout">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/info_management_btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="@string/my_info_manage"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84.75dp"
+            android:layout_marginLeft="14.75dp"
+            android:text="@string/age"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/info_management_txt_age"/>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/info_management_txt_age"
+            android:layout_marginTop="9.75dp"
+            android:background="@drawable/common_input_box"
+            android:id="@+id/info_management_rlayout_inputbox_age">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@color/colorFF2F2F2F"
+                android:textSize="15dp"
+                android:background="@null"
+                android:hint="1 ~ 200"
+                android:textColorHint="@color/colorFFCECECE"
+                android:id="@+id/info_management_edittext_age"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_management_rlayout_inputbox_age"
+            android:layout_marginTop="23.75dp"
+            android:layout_marginLeft="14.75dp"
+            android:text="@string/height"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/info_management_txt_height"/>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/info_management_txt_height"
+            android:layout_marginTop="9.75dp"
+            android:background="@drawable/common_input_box"
+            android:id="@+id/info_management_rlayout_inputbox_height">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColor="@color/colorFF2F2F2F"
+                android:textSize="15dp"
+                android:background="@null"
+                android:hint="50 ~ 250"
+                android:textColorHint="@color/colorFFCECECE"
+                android:id="@+id/info_management_edittext_height"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_management_rlayout_inputbox_height"
+            android:layout_marginTop="23.75dp"
+            android:layout_marginLeft="14.75dp"
+            android:text="@string/weight"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/info_management_txt_weight"/>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/info_management_txt_weight"
+            android:layout_marginTop="9.75dp"
+            android:background="@drawable/common_input_box"
+            android:id="@+id/info_management_rlayout_inputbox_weight">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textColor="@color/colorFF2F2F2F"
+                android:textSize="15dp"
+                android:background="@null"
+                android:hint="20 ~ 250"
+                android:textColorHint="@color/colorFFCECECE"
+                android:id="@+id/info_management_edittext_weight"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_management_rlayout_inputbox_weight"
+            android:layout_marginTop="38dp"
+            android:layout_marginLeft="14.75dp"
+            android:text="@string/sex"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/info_management_rlayout_inputbox_weight"
+            android:layout_marginTop="23.75dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/selector_btn_female_small"
+            android:id="@+id/info_management_btn_female"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/info_management_btn_female"
+            android:layout_toLeftOf="@id/info_management_btn_female"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/selector_btn_male_small"
+            android:id="@+id/info_management_btn_male"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:background="@drawable/selector_btn_bottom"
+            android:id="@+id/info_management_btn_ok">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"
+                android:id="@+id/info_management_txt_ok"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12.5dp"
+                android:layout_toRightOf="@id/info_management_txt_ok"
+                android:background="@drawable/selector_btn_bottom_arrow"
+                android:id="@+id/info_management_img_ok"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorB2000000"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:id="@+id/info_management_progress_layer">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/info_management_progress_network" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

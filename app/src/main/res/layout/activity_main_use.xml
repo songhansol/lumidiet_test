@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center|top"
+    android:gravity="center|top"
+    android:id="@+id/main_activity_use">
+
+    <com.doubleh.lumidiet.utils.HoloCircularProgressBar
+        android:id="@+id/main_holoCircularProgressBar"
+        android:layout_width="255dp"
+        android:layout_height="255dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100.75dp"
+        app:marker_progress="0.0"
+        app:progress="0.0"/>
+
+    <RelativeLayout
+        android:layout_width="269.5dp"
+        android:layout_height="269.5dp"
+        android:layout_marginTop="93.5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/main_img_circle_layout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/main_img_circle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="103.25dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28.5dp"
+            android:background="@drawable/main_battery_step1"
+            android:id="@+id/main_img_battery"/>
+
+        <TextView
+            android:id="@+id/main_txt_remain_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_img_battery"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginTop="12dp"
+            android:includeFontPadding="false"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="20"
+            android:textColor="@color/colorFF00BD47"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/main_txt_remain_time"
+            android:layout_alignBaseline="@id/main_txt_remain_time"
+            android:layout_alignBottom="@id/main_txt_remain_time"
+            android:layout_marginLeft="4dp"
+            android:includeFontPadding="false"
+            android:text="@string/minute_en"
+            android:textSize="13.75dp"
+            android:textColor="@color/colorFF858585" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/main_txt_remain_time"
+            android:layout_marginTop="7.25dp"
+            android:layout_marginBottom="-3dp"
+            android:includeFontPadding="false"
+            android:text="@string/remain"
+            android:textSize="12.5dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:id="@+id/main_txt_remain"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/main_txt_remain"
+            android:layout_marginTop="10.5dp"
+            android:layout_marginBottom="-3dp"
+            android:includeFontPadding="false"
+            android:text="@string/accum_usage_time"
+            android:textSize="12.5dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:id="@+id/main_txt_accum_usage_time"/>
+
+        <ImageView
+            android:layout_width="182.5dp"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/main_txt_accum_usage_time"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorFFCECECE"
+            android:id="@+id/main_img_line"/>
+
+        <include layout="@layout/pedometer_info" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

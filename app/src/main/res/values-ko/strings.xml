@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">Lumidiet</string>
+    <string name="app_name2">양산용_Lumidiet</string>
+    <string name="facebook_app_id">1761769457430159</string>
+
+    <string name="login_facebook">페이스북으로 로그인</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="loginadd">로그인</string>
+    <string name="login_auto">자동 로그인</string>
+    <string name="join">회원가입</string>
+    <string name="find_pw">비밀번호 찾기</string>
+    <string name="find_pw_title">이메일 주소 입력</string>
+    <string name="find_pw_body">서비스 가입 시 입력한 이메일 주소로 임시 비밀번호가\n전송됩니다.</string>
+    <string name="issue_temporary_pw">임시 비밀번호 발급</string>
+    <string name="find_pw_err_msg">인증 받은 메일이 아닙니다.</string>
+    <string name="find_pw_ok_msg">임시 비밀번호를 메일로 발송했습니다.</string>
+
+    <string name="tos_agree">서비스 이용약관 동의 (필수)</string>
+    <string name="agree">동의</string>
+    <string name="id_error">아이디가 유효하지 않습니다.</string>
+    <string name="pw_words">영문/숫자/특수문자 2가지 이상 조합 6~16자리</string>
+    <string name="pw_reconfirm">비밀번호 확인</string>
+    <string name="pw_error">6~16자의 영문, 숫자, 특수문자 중 2가지 이상 포함되어야 합니다.</string>
+    <string name="pw_reconfirm_error">입력한 비밀번호와 재입력한 비밀번호가 일치하지 않습니다.</string>
+    <string name="next">다음</string>
+    <string name="dupl_check">중복확인</string>
+
+    <string name="add_info">추가정보 입력</string>
+    <string name="add_info_words">선택사항이며 나중에 설정화면에서 입력 가능합니다.</string>
+    <string name="age">나이</string>
+    <string name="height">키 (cm)</string>
+    <string name="weight">몸무게 (kg)</string>
+    <string name="sex">성별</string>
+
+    <string name="connect_info">연결중입니다.\n잠시만 기다려 주세요.</string>
+
+    <string name="minute">분</string>
+    <string name="minute_en">min</string>
+    <string name="second_en">sec</string>
+    <string name="remain">남았습니다.</string>
+    <string name="accum_usage_time">누적 사용시간</string>
+    <string name="usage_time">사용시간 / 걸음 수</string>
+    <string name="consecutive_days">연속사용일수 :</string>
+    <string name="maximum_days">최다연속사용일수 :</string>
+    <string name="ldi">LDI</string>
+    <string name="encourage">권장</string>
+    <string name="encourage_day">15분</string>
+    <string name="encourage_week">4일</string>
+    <string name="encourage_month">15일</string>
+    <string name="what_ldi">LDI란?</string>
+    <string name="detail">자세히</string>
+    <string name="measure_ldi">LDI 측정하기</string>
+    <string name="belt_disconnect">기기와 연결되지 않았습니다.</string>
+    <string name="connect">연결</string>
+    <string name="connecting">연결하기</string>
+
+    <string name="days_graph_top">일별 사용 시간</string>
+    <string name="days_graph_bot">일별 LDI</string>
+    <string name="weeks_graph_top">주별 유효 사용 일수</string>
+    <string name="weeks_graph_bot">주 평균 LDI</string>
+    <string name="months_graph_top">월별 유효 사용 일수</string>
+    <string name="months_graph_bot">월 평균 LDI</string>
+    <string name="usage_statistics">사용통계</string>
+    <string name="day">일별</string>
+    <string name="week">주별</string>
+    <string name="month">월별</string>
+    <string name="year">년</string>
+    <string name="average">평균</string>
+    <string name="standard">기준</string>
+
+    <string name="notice">공지사항</string>
+    <string name="notice_box">공지함</string>
+    <string name="notice_mybox">내 공지함</string>
+    <string name="notice_mybox_msg">문의하신 답변은 내 공지함에서\n확인 하실 수 있습니다.</string>
+    <string name="reply">답변</string>
+
+    <string name="diet_info">다이어트 정보</string>
+    <string name="product_instructions">제품 사용법</string>
+
+    <string name="set_alarm">알림 설정</string>
+    <string name="am">오전</string>
+    <string name="pm">오후</string>
+    <string name="repetition">요일 반복</string>
+    <string name="sun">일</string>
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+    <string name="noti_msg">루미 다이어트를 사용할 시간입니다!</string>
+
+    <string name="app_info">APP 정보</string>
+    <string name="support">고객지원</string>
+    <string name="support_info">문의사항에 대해서 보내주시면 성실하게 답변 드리겠습니다.\n답변 확인은 공지사항 메뉴의 내공지함에서 확인하실 수 있습니다.</string>
+    <string name="send">보내기</string>
+    <string name="support_success_msg">문의가 정상적으로 등록되었습니다.</string>
+
+    <string name="my_info_manage_success_msg">정보가 정상적으로 수정되었습니다.</string>
+    <string name="home">홈</string>
+    <string name="my_info">내정보</string>
+    <string name="my_account_manage">내계정 관리</string>
+    <string name="my_info_manage">내정보 관리</string>
+    <string name="pw_change">비밀번호 변경</string>
+    <string name="logout">로그아웃</string>
+    <string name="confirm">인증</string>
+    <string name="confirm_not_support">페이스북 사용자는\n인증 메뉴를 이용할 수 없습니다.</string>
+    <string name="confirm_check">이메일 인증을 해주세요.\n인증을 해야 비밀번호 찾기가 가능합니다.</string>
+    <string name="confirm_ok">이메일 인증이 확인되었습니다.\n인증된 이메일은 변경이 불가능합니다.</string>
+    <string name="send_email_msg">인증 요청용 메일을 발송하였습니다.</string>
+    <string name="send_email_err_msg">이미 인증 받은 메일입니다.\n다른 메일 주소를 입력해 주세요.</string>
+    <string name="apply">적용</string>
+    <string name="now_pw">현재 비밀번호</string>
+    <string name="new_pw">새로운 비밀번호</string>
+    <string name="pw_change_not_support">페이스북 사용자는\n비밀번호 변경 메뉴를 이용할 수 없습니다.</string>
+    <string name="pw_change_err_1">현재 비밀번호가 맞지 않습니다.</string>
+    <string name="pw_change_err_2">새로 입력한 비밀번호와\n재입력한 비밀번호가 일치하지 않습니다.</string>
+    <string name="pw_change_err_3">새로 입력한 비밀번호가\n6~16자의 영문, 숫자, 특수문자 중\n2가지를 포함하는 형식에 맞지 않습니다.</string>
+    <string name="pw_change_ok_msg">비밀번호가 정상적으로 변경 되었습니다.</string>
+
+    <string name="member_leave">회원탈퇴</string>
+    <string name="member_leave_title">회원탈퇴 전 주의사항</string>
+    <string name="member_leave_body">루미다이어트를 탈퇴하면 모든 정보가 삭제되며, 한번 삭제된\n정보는 다시 복구할 수 없습니다.</string>
+    <string name="member_leave_info_title">루미다이어트 탈퇴 시 삭제 정보</string>
+    <string name="member_leave_info_body">- 내 프로필 정보 (이름, 상태, 아이디, 프로필사진, 배경사진)\n- LDI 측정정보 및 사용통계\n- 그 외에 사용자가 설정한 모든 정보</string>
+    <string name="del_all_data">모든 데이터를 삭제합니다.</string>
+    <string name="lumidiet_leave">루미다이어트 탈퇴</string>
+    <string name="member_leave_err_msg1">비밀번호가 맞지 않습니다.</string>
+    <string name="member_leave_ok_msg">정상적으로 탈퇴처리 되었습니다.\n앱이 종료됩니다.</string>
+
+    <string name="guide_info">사용가이드 안내</string>
+    <string name="guide_title">구성품 및 주의사항</string>
+    <string name="guide_body">구성품을 확인 해 주세요.\n안전에 관한 중요한 내용을 기재하고 있는 사용설명서를\n반드시 읽어주세요.</string>
+    <string name="read_guide">사용설명서 읽기</string>
+    <string name="jump">건너뛰기</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="update">업데이트</string>
+
+    <string name="login_error1">입력하신 아이디 혹은 패스워드가\n일치하지 않습니다.</string>
+
+    <string name="confirm_add_history">등록되지 않은 벨트의 사용 이력이 있습니다.</string>
+    <string name="confirm_add_history_info">선택한 사용 이력을 등록합니다.</string>
+    <string name="alert_unused_week_over">최근 일주일 동안 LDI가\n측정되지 않았습니다.</string>
+    <string name="alert_low_battery">현재 배터리가 부족하여 사용할 수 없습니다.\n벨트를 충전 후 다시 사용해 주세요.</string>
+    <string name="change_standard_date">기준일을 변경하시겠습니까?\n</string>
+    <string name="join_message">루미다이어트 회원가입을 축하합니다.\n원활한 서비스를 위해선 내 프로필에서 이메일 \n인증이 필요합니다. 인증을 하지 않을 경우\n비밀번호 찾기 등의 기능을 사용할 수 없습니다.</string>
+
+    <string name="id_dupl_chk_possible">아이디를 사용할 수 있습니다.</string>
+    <string name="id_dupl_chk_impossible">아이디를 사용할 수 없습니다.</string>
+
+    <string name="find_devices_msg">검색된 벨트가 2개 이상입니다.\n원하는 벨트를 선택해 주세요.</string>
+    <string name="find_devices_turnoff_msg">사용하지 않는 벨트의 전원을 꺼주세요.</string>
+
+    <string name="belt_use_complete_msg1">수고하셨습니다!</string>
+    <string name="belt_use_complete_msg2">루미다이어트 벨트 사용이\n정상적으로 종료 되었습니다.</string>
+
+    <string name="app_ver_prefix">APP 현재버전 </string>
+    <string name="app_ver_postfix_last">\n현재 최신 버전입니다.</string>
+    <string name="app_ver_postfix_new">\n새로운 버전이 있습니다.</string>
+    <string name="firmware_prefix">펌웨어 현재버전 </string>
+    <string name="firmware_postfix">\n현재 최신 버전입니다.</string>
+    <string name="permission_err">앱이 정상적으로 동작되려면 권한을 설정해야 합니다.</string>
+    <string name="auto_login_not_support">페이스북 사용자는\n자동 로그인을 지원하지 않습니다.</string>
+    <string name="firmware_update_msg">벨트 펌웨어가 최신버전이 아닙니다.\n최신버전으로 업데이트 합니다.\n* 업데이트 중에는 절대 전원을 끄지 마십시요.</string>
+    <string name="firmware_updating_msg">펌웨어 업데이트 중입니다. (약 1분 소요)\n벨트의 전원을 끄지 마세요.</string>
+    <string name="firmware_update_success_msg">벨트의 펌웨어가\n최신버전으로 업데이트 되었습니다.\n벨트의 전원을 켜주세요.</string>
+    <string name="firmware_update_err_msg">펌웨어 업데이트에 실패하였습니다.\n다시 시도해 주시기 바랍니다.</string>
+
+    <string name="exit_msg">뒤로가기 버튼을 한번 더 누르시면 종료됩니다.</string>
+
+    <string name="measure_first_msg">처음으로 LDI를 측정하셨습니다.\n지금 측정하신 값을\n기준값으로 합니다.</string>
+    <string name="measure_msg">LDI를 측정중입니다.\n잠시만 기다려 주세요.</string>
+    <string name="measure_msg_increase">%1$d월 %2$d일(기준일)보다 LDI가\n증가했네요.\n노력이 필요합니다.</string>
+    <string name="measure_msg_decrease">%1$d월 %2$d일(기준일)보다 LDI가\n감소했네요.\n축하합니다.</string>
+    <string name="measure">측정</string>
+    <string name="stop">중지</string>
+    <string name="male">남</string>
+    <string name="female">여</string>
+    <string name="dont_show_again">다시보지 않기</string>
+    <string name="measure_input_err_msg">LDI 측정을 위하여\n나이 / 키 / 몸무게를\n모두 입력해 주세요.</string>
+    <string name="network_err_msg">네트워크 설정을 확인한 뒤 앱을 다시 실행해 주세요.</string>
+
+    <string name="unknown_device">Unknown Device</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="get_from_album">앨범선택</string>
+    <string name="photo_shoot">사진촬영</string>
+    <string name="camera_dialog_title">업로드할 이미지 선택</string>
+    <string name="connect_cancel">연결 취소</string>
+    <string name="about_ldi">LDI는 루미다이어트 체지방 지수로\n신체특정부위의 상대적 체지방 변화를 나타냅니다.</string>
+    <string name="title">제목</string>
+    <string name="contents">내용</string>
+    <string name="weight_unit">kg</string>
+    <string name="height_unit">cm</string>
+    <string name="measure_guide_top">측정센서를 강하게 잡아주세요.</string>
+    <string name="measure_guide_bot">측정방식 및 환경, 측정빈도에 따라 오차가 있을 수 있습니다.</string>
+    <string name="diet_info_filename">file:///android_asset/main.html</string>
+    <string name="product_info_filename">file:///android_asset/product.html</string>
+    <string name="measure_msg_same">%1$d월 %2$d일(기준일)과\nLDI가 동일합니다.\n축하드립니다.</string>
+    <string name="crown_title">월별 통계 (사용시간)</string>
+    <string name="crown_subtitle">하루 15분 사용한 일수 기준</string>
+    <string name="crown_msg1">15일 이상 사용시 GOOD</string>
+    <string name="crown_msg2">20일 이상 사용시 GREAT</string>
+    <string name="crown_msg3">25일 이상 사용시 EXCELLENT</string>
+    <string name="exit">종료</string>
+    <string name="app_update_msg">이전 버전 앱입니다.\n최신 버전으로 업데이트 해주세요.</string>
+    <string name="memory_err">메모리가 부족합니다.</string>
+    <string name="contact">(선택) 전화번호 또는  이메일</string>
+    <string name="move_link_msg">링크로 이동하시겠습니까?</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="set_magnifier">확대 설정</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mag_activation">돋보기 기능 활성화</string>
+    <string name="mag_info">돋보기 기능을 활성화 하면 \'핀치아웃\'으로\n확대된 화면을 볼 수 있습니다.</string>
+    <string name="input_check_msg">전체 항목을 입력해 주십시오.</string>
+    <string name="measure_input_err_msg2">입력 가능한 범위를 벗어났습니다.\n다시 입력해 주십시오.</string>
+    <string name="diet_info_filename2">main.html</string>
+    <string name="belt_info">루미다이어트 벨트 정보</string>
+    <string name="belt_disconnected">벨트가 연결되어 있지 않습니다.</string>
+    <string name="firmware">펌웨어</string>
+    <string name="model">모델</string>
+    <string name="confirm_add_history2">선택하지 않은 사용 이력은 모두 삭제됩니다.</string>
+    <string name="permission_body1">루미다이어트에서는 다음과 같이 권한들을 사용하오니, 허용해 주시기 바랍니다.</string>
+    <string name="permission_body2">- 블루투스 : 루미다이어트 벨트와 연결\n- 위치 : 블루투스 BLE 검색을 위한 사용(GPS 정보 수집은 하지 않습니다.)\n- ID : 고객 서비스를 위한 기기 정보 확인\n- 기기 및 앱 기록 : 현재 실재중인 앱 확인\n- 캘린더 : 벨트 사용 기록 생성\n- 저장공간 : 프로필 이미지 및 사용 기록 저장</string>
+    <string name="permission_body3">- 사진/영상/파일 : 갤러리 프로필 이미지 선택\n- 카메라 : 프로필 이미지 촬영\n\n선택적 접근권한은 해당 기능을 사용할 때 허용이 필요하며, 비 허용시에도 해당 기능 외 서비스 이용이 가능합니다.</string>
+    <string name="permission_body4">루미다이어트 메뉴 > 설정 에서 변경 가능합니다.</string>
+    <string name="permission_title1">루미 다이어트 접근권한 안내</string>
+    <string name="permission_title2">필수적 접근권한</string>
+    <string name="permission_title3">선택적 접근권한</string>
+    <string name="permission_title4">접근권한 변경 방법</string>
+    <string name="belt_auto_connect_title">루미 다이어트 벨트 자동 연결 설정</string>
+    <string name="belt_auto_connect_body1">루미다이어트 앱을 실행 할 때,\n자동으로 블루투스를 켜서 루미다이어트 벨트를\n연결할 수 있도록 설정하시면\n보다 편리하게 이용 하실 수 있습니다.</string>
+    <string name="belt_auto_connect_body2">블루투스 자동 연결 기능을 사용합니다.</string>
+    <string name="bluetooth_on_title">블루투스 연결</string>
+    <string name="bluetooth_on_body1">블루투스가 꺼져 있습니다.\n루미다이어트 벨트와 연결하려면 블루투스를 켜야합니다.\n블루투스를 켜고 루미다이어트 벨트와\n연결하시겠습니까?</string>
+    <string name="bluetooth_on_body2">블루투스 자동 연결 기능을 사용합니다.</string>
+    <string name="setting">설정</string>
+    <string name="set_bluetooth_auto_connect">블루투스 자동연결 설정</string>
+    <string name="permission_gallery_title">사진/영상/파일 접근 권한</string>
+    <string name="permission_gallery_body">프로필 이미지 선택에 사용</string>
+    <string name="permission_camera_title">카메라 접근 권한</string>
+    <string name="permission_camera_body">프로필 이미지 촬영에 이용</string>
+    <string name="ble_auto_activation">블루투스 자동 연결 기능 사용</string>
+    <string name="ble_auto_info">루미다이어트 앱을 실행 할 때, 자동으로 블루투스를 켜서 루미다이어트 벨트를 연결할 수 있도록 설정하시면, 보다 편리하게 이용하실 수 있습니다.</string>
+    <string name="permission_accept_title">선택적 접근 권한 동의</string>
+    <string name="permission_accept_body">루미다이어트 앱에 프로필 이미지를 등록하기 위하여는 다음 접근권한에 동의가 필요합니다.\n\n-사진/영상/파일 : 갤러리 프로필 이미지 선택\n-카메라 : 프로필 이미지 촬영\n\n루미다이어트 메뉴 > 설정  에서 동의 철회가  가능합니다.</string>
+    <string name="register">등록</string>
+
+    <!-- pedometer -->
+    <string name="goal_reached_notification">목표 달성 완료! %s 걸음 이상</string>
+    <string name="notification_text">오늘의 걸음 %s</string>
+    <string name="your_progress_will_be_shown_here_soon">진행 상황이 여기에 곧 나타납니다</string>
+    <string name="notification_title">만보기가 측정중입니다</string>
+    <string name="pause">일시정지</string>
+    <string name="resume">재개</string>
+    <string name="ispaused">만보기가 일시정지되었습니다.</string>
+    <string name="no_sensor">센서가 발견되지 않았습니다</string>
+    <string name="no_sensor_explain">이 앱은 지정된 만보기 하드웨어가 필요합니다. 본 기기는 장착 되어 있지 않습니다.</string>
+    <string name="use_pedometer">만보기 사용</string>
+    <string name="today_stepcount">오늘 걸음</string>
+    <string name="cumulative_stepcount">누적 걸음</string>
+    <string name="cumulative_ranking">누적 랭킹</string>
+    <string name="pedometer_off">만보기가 꺼져있습니다.</string>
+    <string name="days_graph_pedometer">일별 걸음 수</string>
+    <string name="weeks_graph_pedometer">주별 걸음 수</string>
+    <string name="months_graph_pedometer">월별 걸음 수</string>
+    <string name="number_of_steps">걸음 수</string>
+    <string name="rank">랭킹</string>
+    <string name="goal_steps">목표 걸음</string>
+    <string name="enable_pedometer">만보기 사용 설정</string>
+    <string name="using_the_pedometer">만보기 기능 사용하기</string>
+</resources>

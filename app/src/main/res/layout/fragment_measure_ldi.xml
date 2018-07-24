@@ -1,0 +1,382 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.MeasureLDIFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorFFFFFFFF">
+
+        <Button
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/measure_ldi_btn_prev"/>
+
+        <TextView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/measure_ldi"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="72.25dp"
+            android:src="@drawable/ldi_circle_graph_bg"/>
+
+        <com.doubleh.lumidiet.utils.HoloCircularProgressBar
+            android:id="@+id/measure_ldi_holoCircularProgressBar"
+            android:layout_width="255dp"
+            android:layout_height="255dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp"
+            app:marker_progress="0.0"
+            app:progress="0.0"/>
+
+        <RelativeLayout
+            android:layout_width="269.5dp"
+            android:layout_height="269.5dp"
+            android:layout_marginTop="68.75dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/measure_ldi_img_circle_layout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/measure_ldi_img_circle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="78.5dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:id="@+id/measure_ldi_rlayout_measure">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="78.5dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35.75dp"
+                android:src="@drawable/selector_measure_ldi_emoticon"
+                android:visibility="invisible"
+                android:id="@+id/measure_ldi_img_emoticon"/>
+
+            <TextView
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/measure_ldi_img_emoticon"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="-10dp"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:text="10"
+                android:textSize="50dp"
+                android:textColor="@color/colorFF00BD47"
+                android:id="@+id/measure_ldi_txt_result" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/measure_ldi_txt_result"
+                android:layout_marginRight="11.75dp"
+                android:layout_marginTop="114.25dp"
+                android:src="@drawable/selector_measure_ldi_icon"
+                android:visibility="invisible"
+                android:id="@+id/measure_ldi_img_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/measure_ldi_txt_result"
+                android:layout_alignBaseline="@id/measure_ldi_txt_result"
+                android:layout_marginLeft="4.5dp"
+                android:includeFontPadding="false"
+                android:text="@string/second_en"
+                android:textSize="13.75dp"
+                android:textColor="@color/colorFF858585"
+                android:id="@+id/measure_ldi_txt_unit"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/measure_ldi_txt_result"
+                android:layout_marginTop="25.5dp"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:textSize="12.5dp"
+                android:textColor="@color/colorFF2C2C2C"
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/measure_ldi_txt_result_msg"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="477dp"
+            android:layout_marginLeft="22.5dp"
+            android:background="@drawable/ldi_reset"
+            android:id="@+id/measure_ldi_btn_reset"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="386.75dp"
+                android:src="@drawable/ldi_graph_bg"
+                android:id="@+id/measure_ldi_img_graph_bg"/>
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/measure_ldi_img_graph_bg"
+                android:layout_marginTop="353.5dp"
+                android:gravity="center"
+                android:text="100"
+                android:textSize="17.5dp"
+                android:textColor="@color/color992C2C2C"
+                android:id="@+id/measure_ldi_txt_base_ldi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/measure_ldi_txt_base_ldi"
+                android:layout_alignBaseline="@id/measure_ldi_txt_base_ldi"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:text="@string/ldi"
+                android:textSize="10dp"
+                android:textColor="@color/color992C2C2C"
+                android:id="@+id/measure_ldi_txt_ldi_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/measure_ldi_img_graph_bg"
+                android:layout_alignBaseline="@id/measure_ldi_txt_base_ldi"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:text="@string/ldi"
+                android:textSize="10dp"
+                android:textColor="@color/color992C2C2C"
+                android:id="@+id/measure_ldi_txt_ldi_2"/>
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/measure_ldi_txt_ldi_2"
+                android:layout_marginTop="353.5dp"
+                android:gravity="right"
+                android:text="110"
+                android:textSize="17.5dp"
+                android:textColor="@color/color992C2C2C"
+                android:id="@+id/measure_ldi_txt_measure_ldi"/>
+
+            <RelativeLayout
+                android:layout_width="7.5dp"
+                android:layout_height="104dp"
+                android:layout_alignBottom="@id/measure_ldi_img_graph_bg"
+                android:layout_alignLeft="@id/measure_ldi_img_graph_bg"
+                android:layout_marginLeft="18.25dp"
+                android:id="@+id/measure_ldi_rlayout_base_ldi">
+
+                <ImageView
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/common_graph_gray"
+                    android:id="@+id/measure_ldi_img_base_graph_bar"/>
+
+                <!-- margin -3.75dp -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@id/measure_ldi_img_base_graph_bar"
+                    android:layout_marginBottom="-3.75dp"
+                    android:src="@drawable/common_graph_dot_gray"
+                    android:id="@+id/measure_ldi_img_base_graph_dot" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/measure_ldi_rlayout_base_ldi"
+                android:layout_alignLeft="@id/measure_ldi_rlayout_base_ldi"
+                android:layout_marginTop="5.75dp"
+                android:layout_marginLeft="-13dp"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:text="12/20"
+                android:textSize="12.5dp"
+                android:textColor="@color/color992C2C2C"
+                android:id="@+id/measure_ldi_txt_base_days"/>
+
+            <RelativeLayout
+                android:layout_width="7.5dp"
+                android:layout_height="104dp"
+                android:layout_alignBottom="@id/measure_ldi_img_graph_bg"
+                android:layout_alignRight="@id/measure_ldi_img_graph_bg"
+                android:layout_marginRight="18.25dp"
+                android:id="@+id/measure_ldi_rlayout_measure_ldi">
+
+                <ImageView
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/selector_graph_bar"
+                    android:id="@+id/measure_ldi_img_measure_graph_bar"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@id/measure_ldi_img_measure_graph_bar"
+                    android:layout_marginBottom="-3.75dp"
+                    android:src="@drawable/selector_graph_dot"
+                    android:id="@+id/measure_ldi_img_measure_graph_dot" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/measure_ldi_rlayout_measure_ldi"
+                android:layout_alignLeft="@id/measure_ldi_rlayout_measure_ldi"
+                android:layout_marginTop="5.75dp"
+                android:layout_marginLeft="-13dp"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:text="12/25"
+                android:textSize="12.5dp"
+                android:textColor="@color/color992C2C2C"
+                android:id="@+id/measure_ldi_txt_measure_days"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/measure_ldi_img_graph_bg"
+                android:layout_marginTop="39.75dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/about_ldi"
+                android:textSize="12.5dp"
+                android:textColor="@color/color992C2C2C"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_btn_bottom"
+            android:clickable="true"
+            android:id="@+id/measure_ldi_btn_ok">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"
+                android:id="@+id/measure_ldi_txt_ok"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_bottom_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/measure_ldi_txt_ok"
+                android:id="@+id/measure_ldi_img_ok"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="#000000"
+            android:textColor="#FFFF00"
+            android:textSize="20dp"
+            android:text="LDI Value"
+            android:visibility="invisible"
+            android:id="@+id/ldi_test"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorB2000000"
+        android:id="@+id/popup_layer"
+        android:clickable="true"
+        android:visibility="invisible">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:id="@+id/progress_bar" />
+
+    </RelativeLayout>
+
+</FrameLayout>

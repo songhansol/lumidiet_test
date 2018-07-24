@@ -1,0 +1,153 @@
+LUMIDIET IoT Sağlık Hizmeti Uygulaması Hizmet Şartları
+
+LumiDiet, kısaca ışık kullanan diyet anlamına geliyor. Yeni geliştirilmiş LumiDiet, kullanıcılarına yağ hücrelerindeki yağları azaltmaya yardımcı olmak üzere ışık kullanan giyilebilir bir sağlık cihazıdır ("LumiDiet"). LumiDiet, yağ kaybetmek için herhangi bir cerrahi tedaviye ihtiyaç duymayan, çok gelişmiş ve modaya uygun tasarıma sahip bir cihazdır. Ayrıca, cihaza motorla çalışan bir titreşim eklendiğinde, sadece hafif ışık nüfuzuyla çözülen yağ hücrelerinin daha hızlı yok edilmesini sağlamakla yetinmiyor, aynı zamanda kullanıcılarına daha canlı bir performans ve uyum sağlayarak daha yüksek seviyede memnuniyet sağlıyor. LumiDiet, 100'den başlayan ve vücut yağ orantınızı LumiDiet kullanımınız üzerinden gösteren LumiDiet Endeks'ini (LumiDiet Index, "LDI") ölçer ve gösterir. Cihaz, kardiyo gibi diğer egzersizlerle kombine edildiğinde daha iyi bir sonuca yol açabilir.
+
+Bu Hizmet Koşulları (“Şartlar”) kişisel uygunluk ve elektronik vücut izleme ürünümüzü, www. LumiDiet.com adresindeki web sitemizi, LumiDiet cihazlarına yüklü yazılımı, LumiDiet mobil uygulamalarını ("LumiDiet Uygulaması") kullanım, üyelikler ve diğer LumiDiet hizmetlerini (topluca "LumiDiet Services") düzenler. LumiDiet hizmetlerini kullanmadan önce, ilgili haklarınızı ve yükümlülüklerinizi tam olarak anladığınızdan emin olmak için lütfen bu Şartları dikkatli bir şekilde okuyun. Bu Şartlar, kullanıcı ("Kullanıcı" veya "siz") ve Double-H Co, Ltd ("Şirket" veya "biz") olarak sizin aranızdaki nihai ve kesin anlaşmayı oluşturur. . 
+
+
+
+Bir LumiDiet hesabını oluşturmak ve LumiDiet Hizmetlerini kullanmak için, bu Şartları kabul etmeniz gerekir. Bir hesabınız yoksa www.lumidiet.com adresini ziyaret ederek veya LumiDiet Hizmetlerinin herhangi bir bölümünü kullanarak bu Şartları kabul edersiniz. BU ŞARTLARI KABUL ETMİYORSANIZ, BİR HESAP OLUŞTURMAYIN, WWW.LUMIDIET.COM'U ZİYARET ETMEYİN VEYA LUMIDIET HİZMETLERİNİ KULLANMAYIN.
+
+Şirket hakkında
+
+Double H, Seul, Kore merkezli yeni kurulmuş ve gelişme aşamasındaki şirket. Double H, ışık tedavisi teknolojisini BİT teknolojisi ile birleştirerek, farklılaştırılmış giyilebilir sağlık cihazları sağlamayı amaçlamaktadır. Önceden tıbbi amaçlar için kullanılan LED teknolojisi cihazlarını sadece daha ilerletilmiş ve yaratıcı tasarımla değil aynı zamanda güvenli ve farklı işlevlerle de geliştirdik ve genişlettik. Ayrıca cihaza bir sensör ekleyerek BİT teknolojisini entegre ettik.
+
+Şartların Değişkenliği
+
+Bu Şartlar zamanla değişecektir. Şartlarda önemli bir değişiklik yapmadan küçük değişiklikler uygularsak, değiştirilen Şartların yürürlüğe girmesinden en az yedi (7) gün önce, değiştirilmiş Şartları www.lumidiet.com adresinde yayınlayacağız. Kabul etmeniz için, LumiDiet Servisleri aracılığıyla veya yeni bir Hizmet Şartları belgesini size eposta yoluyla sunarak sizi bu tür değiştirilmiş Şartların yürürlüğe girdiği tarihten en az otuz (30) gün önce haklarınızı maddi olarak değiştirecek bir değişiklik yaptığımız durumda bildireceğiz. 
+
+Değiştirilen Şartlara katılmama hakkını saklı tutarsınız ve değiştirilmiş Koşulları kabul etmemeniz ve geri çekilme talebinde bulunmanız durumunda LumiDiet Hizmetlerini kullanımınızı askıya alabilir; bildirimde tarafımızca ayrıca bildirilen belirli bir süre içinde reddetme amacınızı açık bir şekilde ifade etmemiş olmanız durumunda, değiştirilmiş Şartlara razı olduğunuzu kabul etmiş sayılırsınız. 
+
+LumiDiet’ı Kimler Kullanabilir?
+
+LumiDiet tarafından üretilen, dağıtılan veya satılan bir cihazı; LumiDiet Uygulaması; LumiDiet yazılımı; onaylanmış üçüncü taraf uygulamalarını veya www.lumidiet.com (“Yetkili Bağlantılar”) kullanarak LumiDiet Hizmetlerine bağlanıp onları kullanmaya başlayabilirsiniz. LumiDiet Hizmetlerine LumiDiet tarafından üretilmeyen, dağıtılmayan veya satılmayan herhangi bir cihazla (LumiDiet Ürününün knock-off veya sahte versiyonu gibi); aksi takdirde, bizim tarafımızdan üretilen bir ürüne benzemeyi çabalayan ya da bizim tarafımızdan üretilen bir ürün olduğunu öne süren; veya herhangi bir yetkisiz uygulama veya üçüncü taraf bağlantısı üzerinden bağlanamazsınız. Bu hükmün ihlali veya ihlal etme girişimi, LumiDiet Şartlarına erişim imkânınızın derhal sonlandırılmasına neden olabilir. 
+
+Hesap Oluşturmak
+
+LumiDiet Hizmetlerini tam kapsamlı kullanmak için, geçerli bir e-posta adresi ve şifre sağlayarak hesap oluşturmanızı gerektirir. LumiDiet Hizmetlerini tam kapsamlı kullanmak ve onlardan yararlanmak için, hesabınızı oluşturduktan sonra boy, kilo, yaş, cinsiyet ve LDI dahil olmak üzere fiziksel bilgilerinizi girmeniz gerekir. Hesabınızla ilişkili tüm faaliyetlerden siz sorumlusunuz. Hesap bilgilerinizin gizliliğini koruyamadığınız halde, gerçekleşen kayıp veya zarardan sorumluluk kabul etmeyiz.
+
+Bu belgede yer alan aksini belirten herhangi bir hususa bakılmaksızın, Şirket tamamen kendi takdirine bağlı olarak hesap kaydınızı reddetme hakkını saklı tutar. Bu durumlar sınırlama olmaksızın aşağıda belirtilen durumları içerebilir: (i) daha önce hesabınızı son altı (6) ay içinde iptal ettiyseniz, (ii) başka bir kişinin e-posta adresini keyfi olarak kullandıysanız, (iii) bilerek veya bilmeyerek yanlış bilgi verdiyseniz veya gerekli bilgileri vermediyseniz, (iv) başvurudaki kimlik veya e-posta adresinin mevcut bir hesapla aynıysa, (v) başvurunun yasal temsilcisinin rızası olmadan 14 yaşına varmamış birisi tarafından yapıldıysa veya (vi) başvurunun bu Şartları ihlal ettiği veya bu tür bir uygulamanın hukuka aykırı veya başka şekilde hatalıysa veya Şirketin makul gördüyse.
+
+LumiDiet Hizmetlerini kullanımınızla ilgili olarak sizinle iletişime geçmemiz gerekebilir. Bu iletişimler, LumiDiet Hizmetlerinin bir parçasıdır ve bunları almaktan vazgeçemezsiniz. Hesap ayarlarınızdan diğer iletişimleri idare eder, almaktan vazgeçer ve eposta adresinizi güncel tutabilirsiniz.
+
+Gerekli Ekipman
+
+LumiDiet Hizmetlerinin tam kullanımı, desteklenen bir mobil cihaz ve İnternet erişiminin kullanımınıza bağlıdır. Bu ekipmanın bakımı ve güvenliği LumiDiet Servislerinin performansını etkileyebilir. Ekipmanın işlevselliğini sağlamak sizin sorumluluğunuzdadır.
+
+LumiDiet Hizmetleri için kaydınızın ardından, LumiDiet'te kurulu olan ölçüm cihazını, LumiDiet kullanımınızı ölçecek ve kullanım bilgilerinizi bir sunucuya aktaracak olan LumiDiet Hizmetlerine bağlayabilirsiniz. Şirket, bu ölçüm cihazı tarafından ölçülen ve iletilen bilgileri toplayabilir ve saklayabilir ve daha iyi bir hizmet kalitesi sağlamak için bu bilgileri kullanabilir. 
+
+LumiDiet İçeriği
+
+"LumiDiet İçeriği", LumiDiet Hizmetleri aracılığıyla size gönderilen, yayınlanan, sağlanan veya başka şekillerde sunulan her türlü metin, grafik, görüntü, müzik, yazılım, ses, video, her türlü yazarlık ve bilgi veya diğer materyalleri içerir. LumiDiet İçeriği, LumiDiet Hizmetleri ve temel teknolojisi, telif hakkı, ticari marka, patent, fikri mülkiyet ve diğer geçerli yasa ve yönetmeliklerle korunmaktadır. LumiDiet Hizmetlerine dahil olan veya ona eşlik eden herhangi bir telif hakkı, ticari marka, hizmet markası veya diğer mülkiyet hakkı bildirimlerini kaldırmamayı, değiştirmemeyi veya gizlememeyi kabul edersiniz.
+
+Kullanıcı İçerikleri
+
+LumiDiet Uygulama mesaj panosu da dahil olmak üzere, bir Kullanıcı tarafından LumiDiet Hizmetleri ("Kullanıcı İçerikleri") tarafından yayınlanan tüm fikri mülkiyet hakları ve yükümlülükleri Kullanıcıya aittir.  Şirketin herhangi bir Kullanıcı İçeriğinin uygunsuz olduğunu tespit etmesi durumunda, Şirket, Kullanıcı İçeriğini kalıcı veya geçici olarak kaldırabilir. Bu, sınırlama olmaksızın, başkalarına iftira, sosyal norm ihlali, suç eylemleriyle ilgili, başkalarının fikri mülkiyet haklarını ihlal etdilmesini, LumiDiet Hizmetleri ile ilgisi olmayan, pornografik, Şirketin işine müdahale eden, yanlış, abartılı veya ilgili yasa ve yönetmeliklere aykırı içerikleri kapsar. 
+
+Kullanıcı İçeriklerinin, Bilgi ve İletişim Ağlarının Kullanımı ve Bilgilerinin Korunması Yasası, Telif Hakları ve Telif Hakları Yasası da dahil olmak üzere, yürürlükteki yasa ve düzenlemeleri ihlal etmesi durumunda, Şirket, ihlal edilen bir tarafın talep etmesi gerekip gerekmediğine bakılmaksızın, ilgili kanun ve yönetmeliklere uygun olarak gerekli önlemleri alacaktır. Bu Şartlar kapsamında Kullanıcı İçerikleriyle ilgili özel önlemler ve prosedürler, ilgili yasa ve yönetmeliklere aykırı olmamak kaydıyla Şirketin iç kurallarına ve politikalarına uygun olacaktır. 
+
+LumiDiet Servislerinde Neler Yapılır
+
+LumiDiet Hizmetleri, kişisel, ticari olmayan kullanımınız için tasarlanmıştır.
+
+LumiDiet size bu Şartlarda yetki verildiği kapsamda (1) LumiDiet İçeriğine erişim ve görüntüleme, (2) yazılım ve LumiDiet Uygulamasına erişim ve kullanma, ve (3) LumiDiet ürünlerine entegre olan yazılımı kullanmaya yönelik sınırlı, münhasır olmayan, devredilemez, alt lisanssız bir lisans verir Bu lisans sadece kişisel kullanımınız ve bu Şartlarda izin verilen şekilde LumiDiet Hizmetlerinden yararlanmanız için sağlanmıştır.
+
+LumiDiet, LumiDiet İçeriği, LumiDiet Hizmetlerini veya bunların herhangi bir bölümünü, kullanma, kopyalama, uyarlama, değiştirme, dağıtma, lisanslama, satma, transfer etme, kamuya açık olarak gösterme, kamuya açık olarak uygulama, iletme, yayınlama veya başka bir şekilde istismar etmeniz bu Şartlarda açıkça izin verilmediği sürece yasaktır. Bu Şartlarda açıkça verilen lisanslar ve haklar haricinde, LumiDiet veya lisans verenleri tarafından sahip olunan veya kontrol edilen herhangi bir fikri mülkiyet hakkı kapsamında, size herhangi bir lisans veya hak verilmez.
+
+LumiDiet Hizmetlerinde Yapamadığınız Şeyler
+
+Yasaların izin verdiği ölçüde haricinde, LumiDiet Hizmetlerine erişirken veya bunları kullanırken, başkalarını burada belirtilen faaliyetlerde bulunmanız, bu faaliyetlerde bulunmaya çalışmanız, ya da başkaların kullanımına destek olmanız ya da kullanmaya teşvik etmeniz, kanunen yasaktır: (1) LumiDiet Hizmetlerini veya LumiDiet Hizmetleri çerçevesi altında, LumiDiet'in adını, herhangi bir LumiDiet ticari markasını, logosunu veya diğer özel bilgileri veya LumiDiet'in açık yazılı izni olmaksızın bir sayfada yer alan herhangi bir sayfanın veya formun düzenini ve tasarımını kullanmak, görüntülemek, yansıtmak; (2) LumiDiet Hizmetleri, LumiDiet'in sistemlerinin halka açık olmayan alanlarına erişim veya müdahale etmek; (3) herhangi bir LumiDiet sisteminin savunmasızlığını test etmek veya herhangi bir güvenlik veya kimlik doğrulama tedbirini ihlal etmek; (4) LumiDiet'in veya LumiDiet'in sağlayıcılarının veya herhangi bir üçüncü şahsın (başka bir kullanıcı dahil) LumiDiet Hizmetlerini veya LumiDiet İçeriğini korumak için uyguladığı herhangi bir teknolojik önlemini aşmak; (5) LumiDiet Hizmetlerine veya LumiDiet İçeriğine, Yetkili Bağlantı, LumiDiet Hizmetleri veya LumiDiet Uygulaması kullanımı dışındaki herhangi bir mekanizma aracılığıyla erişim sağlamak; (6) LumiDiet'in size ya da LumiDiet Hizmetlerinin herhangi bir parçasına sağladığı herhangi bir yazılımın kaynak kodunu değiştirmek, kaynak koda dönüştürmek, tersine çevirmek, tersine mühendislik işlemine, sabotaj yapmaya veya başka bir şekilde kaynak yapmaya teşebbüs etmek; veya (7) LumiDiet Uygulamasının mesaj panosunda uygunsuz içerikler yayınlamak (herhangi bir sınırlama olmaksızın pornografik, ticari veya yasal olmayan içerikler dahil).
+
+İcra Haklarımız
+
+LumiDiet Hizmetlerinin, LumiDiet İçeriğinin erişimini veya kullanımını izlemek veya herhangi bir LumiDiet İçeriğini incelemek veya düzenlemek zorunda değiliz, ancak, LumiDiet Hizmetlerini kullanmak, bu Şartlara uygunluğu sağlamak ve geçerli yasalara veya diğer yasal şartlara uymak amacıyla bunu yapma hakkına sahibiz. Emniyet yetkililerine yasadışı davranışlar konusunda danışabilir ve bunları açıklayabiliriz; ve geçerli yasal sürece uygun olarak, yasayı ihlal eden kullanıcıları kovuşturmak için kolluk kuvvetleri ile işbirliği yapabiliriz. LumiDiet Hizmetlerinin ve herhangi bir LumiDiet İçeriğine herhangi bir zamanda ve bildirimde bulunmaksızın erişimi kaldırmak ya da devre dışı bırakmak hakkını saklı tutarız ve LumiDiet Hizmetlerini kullanımınızın sakıncalı ya da Bu Şartların ihlali. Bu Şartların ihlallerini ve LumiDiet Hizmetlerini etkileyen her türlü davranışı araştırma hakkına sahibiz.
+
+LumiDiet Hizmetlerinin Kullanımıyla İlgili Riskler Size Aittir
+
+Amacımız, LumiDiet Hizmetleri hakkında yararlı ve doğru bilgi sağlamaktır, ancak herhangi bir LumiDiet Hizmeti ile ilgili herhangi bir onay, temsil veya garanti vermeyiz. LumiDiet Hizmetleri aracılığıyla toplanan ve sunulan verilerin doğruluğu tıbbi cihaz veya bilimsel ölçüm cihazlarının verileriyle uyuşmak için tasarlanmamıştır.
+
+LumiDiet Hizmetleri aracılığıyla aldığınız bilgilerin doğruluğu, güvenilirliği, etkinliği veya doğru kullanımından sorumlu değiliz. Geçerli konumunuzla ilgili veriler dahil olmak üzere haritalar, yol tarifleri ve diğer GPS veya navigasyon verileri kullanılamıyor, yanlış veya eksik olabilir. Herhangi bir LumiDiet İçeriğine veya LumiDiet Hizmetine güveniyorsanız, bunu yalnızca kendi sorumluluğunuz altında yaparsınız.
+
+LumiDiet Hizmetlerini Kullanmadan Önce Doktorunuza Danışın
+
+LumiDiet Hizmetleri, herhangi bir hastalığı teşhis etmek, tedavi etmek, yok etmek veya önlemek için tasarlanmamıştır. Tıbbi veya kalp rahatsızlığınız varsa, LumiDiet Hizmetlerini kullanmadan önce sizden egzersiz programı ya da farklı bir diyet uygulamanızı isteyecek doktorunuza danışın. Acil bir tıbbi durumla karşılaşırsanız, LumiDiet Hizmetlerinin kullanımını durdurun ve bir tıbbi uzmana danışın. LumiDiet Hizmetleri aracılığıyla aldığınız veya öğreneceğiniz herhangi bir egzersiz programına katılırsanız, bunu kendi sorumluluğunuz altında yaptığınızı ve bu faaliyetlere gönüllü olarak katıldığınızı kabul etmiş sayılırsınız.
+
+Giyilebilir cihazlarla uzun süreli temas, bazı kullanıcılarda cilt tahrişine veya alerjilere neden olabilir. Tahrişleri azaltmak için, dört basit takma ve bakım ipucunu izleyin: (1) cihazı temiz tutun; (2) cihazı kuru tutun; (3) cihazı çok sıkı bağlamayın ve (4) belinize uzun bir süre giydikten sonra bir saat ara verin. Daha fazla bilgi için www.LumiDiet.com adresini ziyaret edin veya LumiDiet'in ürün kılavuzuna bakın. Herhangi bir cilt tahrişi fark ederseniz, hemen cihazınızı uygulamadan alın. Semptomlar cihazı uygulamadan aldıktan 2-3 gün sonra da devam ederse, doktorunuza danışın.
+
+Ürün Siparişlerine Uygulanan Ek Politikalar
+
+LumiDiet'in satış şartları, iade politikası ve garantisi, www.LumiDiet.com adresindeki LumiDiet mağazasından yapılan alışverişler için geçerlidir. Verilen tüm siparişler, LumiDiet'in kabulüne tabidir. Herhangi bir nedenle siparişinizi kabul edebilir, reddedebilir veya kısıtlamalar uygulayabiliriz.
+
+Geri Bildirim ve Gönderim Politikası
+
+Bize yorum, fikir veya geri bildirim göndermenizle, bunların herhangi bir kısıtlama veya tazminata tabi olmadan kullanabileceğimize kabul ediyorsunuz. LumiDiet tarafından geliştirilen ya da sizin dışındaki kaynaklardan elde edilen, daha önce bildiğimiz benzer veya buna bağlı fikirleri veya geri bildirimleri kullanma haklarından feragat etmeyiz. 
+
+Uyarı ve Bildirimler Almaya Kabul
+
+LumiDiet Hizmetlerini kullanımınızın bir parçası olarak, bildirimler, uyarılar veya e-postalar alabilirsiniz. Bu iletişimleri almayı kabul ediyorsunuz. Hizmet dışı iletişimin alınmasını hesap ayarlarınızdan kontrol edebilirsiniz. Kablosuz operatörünüz tarafından alınabilecek herhangi bir mesajlaşma veya veri ücretinden siz sorumlusunuz.
+
+LumiDiet Hizmetlerinde Üçüncü Taraf Bağlantılarından Sorumlu Değiliz
+
+LumiDiet Hizmetleri, LumiDiet'ın kontrolü altında olmayan üçüncü taraf web sitelerine, uygulamalara, hizmetlere ve kaynaklara (topluca "Üçüncü Taraf Hizmetleri") bağlantılar içerir. Bu bağlantıları yalnızca kolaylık olarak sağlamaktayız ve Üçüncü Taraf Hizmetlerinden elde edilen içerik, ürün veya hizmetlerden sorumlu değiliz. Tek sorumluluğu kabul ediyorsunuz ve herhangi bir Üçüncü Taraf Hizmetini kullanımınızdan kaynaklanan tüm riskleri üstleniyorsunuz.
+
+LumiDiet Hizmetlerinde Yapılan Değişiklikler
+
+Şirket politikasınca veya teknolojik açısından gerekli görüldüğü değişiklikler de dahil olmak üzere, böyle bir değişikliğin ve/veya makul bir sebebinin ortaya çıkması halinde, Şirket, Şirketin web sitesi veya LumiDiet Uygulaması aracılığıyla mümkün olduğu kadar önceden bildirimde bulunmak kaydıyla, size herhangi bir yükümlülük olmadan, herhangi bir zamanda, geçici veya kalıcı olarak değişiklik ya da durdurma uygulayabilir. Şirket, bu zararların Şirket tarafından kasten veya ihmali olduğu durumlar haricinde, LumiDiet Hizmetlerinin herhangi bir özelliğinin veya bileşeninin değiştirilmesi, askıya alınması veya durdurulması için size veya üçüncü taraflara karşı sorumlu değildir. LumiDiet ürünleri tarafından önceden haber verilmeksizin otomatik olarak indirilip yüklenebilen yazılım güncellemelerinin zamanlamasını ve içeriğini belirleme hakkımız saklıdır.
+
+Fesih
+
+Bu Şartları ihlal ederseniz, hesabınızı devre dışı bırakma veya bu Şartları, tamamen kendi takdirimize bağlı olarak, herhangi bir zamanda ve size bildirimde bulunmadan veya herhangi bir yükümlülük altına girmeden feshetme hakkını saklı tutarız. Bu durumlar, sınırlama olmaksızın, aşağıda belirtilen durumları içerebilir: (i) burada belirtilen hesap kabulünün reddedilmesi gerekçelerinden herhangi birinin, daha sonra ortaya çıkarılması, (ii) Şirketin, başka bir üyenin veya başka herhangi bir kişinin hakkı, itibarı, onur, kredisi veya diğer meşru menfaatlerini ihlal eden herhangi bir eylemde bulunulması veya (iii) bu Şartları ve Şirket’in yayınlanmış politikasını ihlal eden fiilleri gerçekleştirilmesi. Böyle bir fesih durumunda, e-postayla veya başka yollarla size bildirimde bulunulduktan sonra hesabınızla ilgili herhangi bir içeriği veya bilgiyi silebiliriz. 
+
+LumiDiet Hizmetlerinin kullanılmasına ilişkin sözleşmeyi, Şirket tarafından öngörülen şekilde Şirket'e bildirilmek suretiyle herhangi bir zamanda feshedebilirsiniz. Bu fesihten doğabilecek her türlü yükümlülük ve dezavantajı üstlenmeye mecbursunuz.. Kullanım anlaşmasının feshi üzerine Şirket, LumiDiet Hizmetlerini kullanımınızla bağlantılı olarak size sağlanan ek avantajları geri çekebilir.
+
+LumiDiet Hizmetlerinin veya hesabınızın feshedilmesi veya iptal edilmesi halinde, işbu Şartların aşağıdaki hükümleri geçerli olacaktır: 
+
+Feragatler
+
+LUMIDIET HİZMETLERİ VE LUMIDIET İÇERİĞİ HERHANGİ BİR GARANTİ OLMAKSIZIN “OLDUĞU GİBİ” SAĞLANMAKTADIR. YUKARIDAKİ BELİRTİLENLERİ SINIRLAMADAN, TİCARİ ELVERİŞLİLİK, BELİRLİ BİR AMACA UYGUNLUK, SORUMLULUK YA DA İHLAL ETMEME VE TİCARETİN KULLANIMI DAHİL OLMAK ÜZERE HERHANGİ BİR GARANTİ VERİLMEMEKTEDİR. LumiDiet Hizmetleri veya LumiDiet İçeriğinin gereksinimlerinizi karşılayacağını veya kesintisiz, güvenli veya hatasız olarak sunulacağını garanti etmiyoruz. LumiDiet Hizmetlerinin veya herhangi bir LumiDiet İçeriğinin kalitesi, doğruluğu, güncelliği, gerçekliği, eksiksizliği veya güvenilirliği konusunda hiçbir garanti vermemekteyiz. Herhangi bir LumiDiet İçeriğine veya LumiDiet Hizmetine güveniyorsanız, bunu yalnızca kendi sorumluluğunuz altında yaptığınızı kabul edersiniz.
+
+TAZMİNAT
+
+Şirketi ve memurlarını, yöneticilerini, çalışanlarını ve acentelerini, (i) LumiDiet Hizmetlerine erişiminiz veya kullanımınız veya (ii) işbu Sözleşmenin sizin tarafınızdan yapılmış olan herhangi bir garantinin ihlali veya bu Şartların başka herhangi bir hükmünün ihlali ile bağlantılı olarak oluşan herhangi bir iddia, ihtilaf, talep, yükümlülük, zarar, kayıp ve masraf ve harcamalar dahil, bunlarla sınırlı olmamak kaydıyla, makul avukat ücretleri de dahil olmak üzere, sorumlu tutmayacaksınız ve koruyacaksınız.  Sizin tarafınızdan tazmin edilmeye tabi olan herhangi bir üçüncü taraf iddiasının savunmasını kontrol etme hakkını saklı tutarız; bu durumda, mevcut herhangi bir savunmayı savunurken bizimle işbirliği yapacaksınız.
+
+Sorumluluğun Sınırlandırılması
+
+Lumidiet, tedarikçileri ya da lisans verenleri ya da Lumidiet Hizmetlerini yaratma, üretme ya da teslim etmede yer alan diğer herhangi bir taraf, garanti, sözleşme, haksız fiil (ihmal dahil), ürün yükümlülüğü veya diğer yasal teoriye dayanmak ve Lumidiet'ın böyle bir hasar olasılığından haberdar olup olmadığı üzere ve burada belirtilen sınırlı bir çözüm, temel amacına hizmet etmeyi başaramamış olsa bile, bu şartlarla veya Lumidiet Hizmetlerinin kullanılmasından veya kullanılmamasından kaynaklanan veya bunlarla bağlantılı olarak ortaya çıkan, kar kaybı, veri kaybı ya da itibar kaybı dahil olmak üzere, tesadüfi, özel, örnek ya da sonuçsal zararlardan, hizmet kesintisi, bilgisayar hasarı veya sistem hatası veya yedek hizmetlerin maliyetinden sorumlu tutulmayacaktır.  BAZI YARGI DÜZENLERİNİN, YANLIŞ VEYA ARIZİ ZARARLARDAN SORUMLULUĞUN HARİÇ TUTULMASINA VEYA SINIRLANDIRILMASINA İZİN VERMEMESINDEN DOLAYI, BU YUKARIDAKİ SINIRLAMA SİZİN İÇİN GEÇERLİ OLMAYABİLİR.
+
+IN NO EVENT WILL LUMIDIET’S TOTAL LIABILITY ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE LUMIDIET SERVICES EXCEED THE AMOUNTS YOU HAVE PAID TO LUMIDIET FOR USE OF THE LUMIDIET SERVICE.
+
+YUKARIDA BELİRTİLEN HASARLARIN DAHİL EDİLMEMESİ VE SINIRLANDIRILMASI, ŞİRKET VE SİZİN ARASINDAKİ PAZARIN TEMEL UNSURLARIDIR.
+
+Anlaşmazlık Çözümü
+
+Bu Şartlar, LumiDiet Hizmetleri veya diğer herhangi bir LumiDiet ürünü veya hizmeti (topluca "Anlaşmazlıklar") ile ilgili veya bu Sözleşme ile ilişkili olarak sizin ve Şirketin aranızdaki herhangi bir anlaşmazlığın aşağıda belirtilen yöntemler ile yönetileceğini kabul edersiniz.
+
+Geçerli Kanun: Hizmet Şartları ve herhangi bir Anlaşmazlıkların çözümü, yasaların çatışması ilkelerine bakılmaksızın, Kore yasalarına göre yönetilecek ve yorumlanacaktır.
+
+Resmi Olmayan Anlaşmazlık Çözümü: Resmi bir davaya gerek duymadan endişelerinizi ele almak istiyoruz. Şirkete karşı bir hak talebinde bulunmadan önce, [contact@LumiDiet.com] ile iletişime geçerek Anlaşmazlığı resmi olarak çözmeye çalışmayı kabul edersiniz. Anlaşmazlıklarınızı e-posta yoluyla size ulaşarak resmi bir şekilde çözmeye çalışacağız. Bir anlaşmazlık çözülmezse, siz veya Şirket resmi bir işlem başlatabilirsiniz.
+
+Toplu Davalar Yok: Şirket ile olan anlaşmazlıkları ancak bireysel olarak çözebilir ve bir tolu, konsolide veya temsilci eyleminde davacı veya grup üyesi olarak hak iddia edemezsiniz. Toplu davalar, toplu arabuluculuklar, özel avukatlı genel davalar ve diğer arabuluculuklar bu Sözleşme kapsamında yasaktır.
+
+Anlaşmazlıklara İlişkin Adli Mahkeme: Siz ve Şirket, Anlaşmazlıklarla ilgili herhangi bir adli kovuşturmanın, Kore Hukuk Usulü Muhakemeleri Yasası'nda öngörüldüğü gibi yetkili yargı yetkisi ile mahkemeye getirileceğini kabul etmektesiniz. Hem siz hem de Şirket, mekânı ve kişisel yargı yetkisini kabul ediyorsunuz/ediyor. Siz ve Şirket, ikiniz jüri yargılaması hakkından feragat etmeyi kabul ediyorsunuz.
+
+Genel Şartlar
+
+Burada aksi öngörülmediği takdirde, bu Şartlar, LumiDiet Hizmetleri ile ilgili olarak Şirket ile sizin aranızdaki tüm anlaşmazlıkları ve anlaşmaları oluşturur ve bu Şartlar, LumiDiet Hizmetleri ve LumiDiet İçeriği ile ilgili olarak Şirket ile sizin aranızdaki her türlü sözlü veya yazılı tüm anlaşmaları veya sözleşmelerin yerini alır ve değiştirir. Herhangi bir nedenle, bir yetkili mahkeme, bu Şartların herhangi bir hükmünün geçersiz veya uygulanamaz olduğunu tespit ederse, söz konusu hüküm, izin verilen azami ölçüde uygulanacak ve bu Şartların diğer hükümleri yürürlükte kalacaktır.
+
+Bu Şartların, Şirketin önceden yazılı izni alınmadan, yasaların uygulanması veya başka şekillerde ne devri ne de tayini mümkündür. Tarafınızca bu izin olmadan uygulanan devir ya da tayin eylemi geçersiz olacaktır. Şirket, bu Şartların kısıtlama olmama şartıyla devri ve tayinini gerçekleştirebilir. Yukarıdaki şartlara tabi olarak, bu Şartlar tarafların, onların haleflerinin ve izin verilen atamalarının yararına olacak ve bunlara zarar verecektir.
+
+İşbu Şartlar kapsamında Şirket tarafından sağlanan ve bu Şartlarda yapılacak değişiklikler de dahil olmak üzere herhangi bir duyuru veya diğer bildirimler: (i) e-posta yoluyla; veya (ii) LumiDiet Hizmetlerine gönderilecek bir gönderi tarafından e-posta ile yapılan bildirimlerde, mesajın alındığı tarih, bildirimin iletildiği tarih olarak kabul edilecektir.
+
+Şirketin bu Şartların herhangi bir hakkını veya hükmünü yerine getirmemesi, bu haktan veya hükümden feragat ettiği anlamına gelmeyecektir. Bu tür bir hakkın veya hükmün feragat edilmesi, sadece yazılı olarak ve Şirket'in yetkili bir temsilcisi tarafından imzalanmasıyla geçerli olacaktır. Bu Şartlarda açıkça belirtilmedikçe, işbu Şartlar kapsamındaki herhangi bir tarafın herhangi bir şekilde uyguladığı yargılama, bu Şartlar kapsamındaki diğer çözüm yollarına zarar vermeksizin geçerliliğini korur. 
+
+Ek Şartlar Geçerli Olabilir
+
+Bazı ürünler veya hizmetler için ek şartlar geçerli olabilir. Bu Şartlar ile herhangi ek şart arasında bir çelişki olması durumunda, ek şartlar geçerli olacaktır.
+
+İletişim
+
+BU ŞARTLAR HAKKINDA HERHANGİ BİR SORUNUZ VARSA, LÜTFEN BİZİMLE TEMASA GEÇİN.
+Double H
+Tel : [+82-31-606-6606] 
+Eposta : [contact@lumidiet.com]
+Adres: [(13558) KINS TOWER #1104, 8, Seongnam-daero 331beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea]

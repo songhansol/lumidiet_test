@@ -1,0 +1,172 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.SupportFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/support_rlayout">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/support_btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="@string/support"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.5dp"
+            android:layout_marginRight="12.5dp"
+            android:layout_marginTop="84.75dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/support_info"
+            android:textColor="@color/colorFF2C2C2C"
+            android:textSize="12.5dp"
+            android:textScaleX="0.945"
+            android:lineSpacingExtra="17.5dp"/>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/common_input_box">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:maxLines="1"
+                android:hint="@string/title"
+                android:textColorHint="@color/color992F2F2F"
+                android:textColor="@color/colorFF2F2F2F"
+                android:textSize="15dp"
+                android:id="@+id/support_edittxt_title"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/common_input_box">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:maxLines="1"
+                android:hint="@string/contact"
+                android:textColorHint="@color/color992F2F2F"
+                android:textColor="@color/colorFF2F2F2F"
+                android:textSize="15dp"
+                android:id="@+id/support_edittxt_contact"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="135dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp"
+            android:gravity="top|center"
+            android:background="@drawable/join_terms_bg">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="12.25dp"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="30dp"
+                android:includeFontPadding="false"
+                android:gravity="top"
+                android:hint="@string/contents"
+                android:textColorHint="@color/color992F2F2F"
+                android:textColor="@color/colorFF2F2F2F"
+                android:textSize="15dp"
+                android:id="@+id/support_edittxt_body"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:background="@drawable/selector_btn_bottom"
+            android:id="@+id/support_btn_send">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/send"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"
+                android:id="@+id/support_txt_send"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12.5dp"
+                android:layout_toRightOf="@id/support_txt_send"
+                android:background="@drawable/selector_btn_bottom_arrow"
+                android:id="@+id/support_img_send"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorB2000000"
+        android:id="@+id/popup_layer"
+        android:clickable="true"
+        android:visibility="invisible">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            android:id="@+id/progress_bar" />
+
+    </RelativeLayout>
+
+</FrameLayout>

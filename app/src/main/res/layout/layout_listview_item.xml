@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20.25dp"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/list_item_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/list_item_title"
+            android:layout_toRightOf="@id/list_item_title"
+            android:layout_marginLeft="5.25dp"
+            android:includeFontPadding="false"
+            android:textSize="8.75dp"
+            android:textColor="@color/colorFF989898"
+            android:id="@+id/list_item_date"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12.75dp"
+            android:background="@drawable/selector_btn_listview"
+            android:id="@+id/list_item_switch"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:id="@+id/list_item_body_layout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorFFCECECE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="26.5dp"
+            android:lineSpacingExtra="5dp"
+            android:textSize="12.5dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:id="@+id/list_item_body"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

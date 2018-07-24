@@ -1,0 +1,315 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:clickable="true"
+             tools:context="com.doubleh.lumidiet.SettingsFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="@string/setting"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.75dp"
+            android:layout_marginTop="85dp"
+            android:background="@color/colorFF0CCB54"
+            android:id="@+id/myinfo_img_top_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myinfo_img_top_line"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/selector_left_menu_btn_mag"
+                android:id="@+id/btn_set_zoom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="68dp"
+                    android:text="@string/set_magnifier"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:clickable="true"
+                android:background="@drawable/selector_left_menu_btn_alarm"
+                android:id="@+id/btn_set_alarm">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="68dp"
+                    android:text="@string/set_alarm"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:clickable="true"
+                android:background="@drawable/selector_left_menu_btn_bluetooth"
+                android:id="@+id/btn_bluetooth_set">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="68dp"
+                    android:text="@string/set_bluetooth_auto_connect"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/selector_left_menu_btn_gallery"
+                android:id="@+id/btn_permission_gallery_set">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingBottom="17dp"
+                    android:layout_marginLeft="68dp"
+                    android:text="@string/permission_gallery_title"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="17dp"
+                    android:layout_marginLeft="68dp"
+                    android:text="@string/permission_gallery_body"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorFF727272"/>
+
+                <Button
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/selector_btn_alarm_setting"
+                    android:id="@+id/btn_permission_gallery"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/selector_left_menu_btn_camera"
+                android:id="@+id/btn_permission_camera_set">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingBottom="17dp"
+                    android:layout_marginLeft="68dp"
+                    android:text="@string/permission_camera_title"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="17dp"
+                    android:layout_marginLeft="68dp"
+                    android:text="@string/permission_camera_body"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorFF727272"/>
+
+                <Button
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/selector_btn_alarm_setting"
+                    android:id="@+id/btn_permission_camera"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:background="@drawable/selector_left_menu_btn_pedometer"
+                android:id="@+id/rlPedometerContainer"
+                android:focusable="true">
+
+                <RelativeLayout
+                    android:id="@+id/rlButtonPedometerContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp" >
+
+                    <ImageView
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="23.8dp"
+                        android:layout_width="28.5dp"
+                        android:layout_height="15.3dp"
+                        android:src="@drawable/pedometer" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="68dp"
+                        android:text="@string/use_pedometer"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorFF2F2F2F"/>
+
+                    <Button
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/selector_btn_alarm_setting"
+                        android:id="@+id/btnPedometer"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlButtonPedometerContainer"
+                    android:orientation="horizontal" >
+
+                    <Space
+                        android:layout_width="66.8dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/goal_steps"
+                        android:textColor="@color/colorFF727272"
+                        android:textSize="15dp" />
+
+                    <Space
+                        android:layout_width="11dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tvGoalSteps"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_outline_727272"
+                        android:inputType="numberDecimal"
+                        android:paddingBottom="7.8dp"
+                        android:paddingStart="10.8dp"
+                        android:paddingTop="11dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/default_goal_steps"
+                        android:textAlignment="viewStart"
+                        android:textColor="#10a0e3"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnGoalSteps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="5.3dp"
+                        android:gravity="center"
+                        android:text="설정"
+                        android:textColor="@color/colorFF727272"
+                        android:textSize="15dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

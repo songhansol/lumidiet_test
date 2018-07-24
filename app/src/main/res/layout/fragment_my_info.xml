@@ -1,0 +1,287 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.MyInfoFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/myinfo_btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="@string/my_info"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <!--<ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="86.25dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile_bg"
+            android:id="@+id/myinfo_img_profile"/>-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="86.25dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile_bg"
+            android:id="@+id/myinfo_img_profile"/>
+
+        <Button
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/myinfo_img_profile"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="124.5dp"
+            android:background="@drawable/camera"
+            android:id="@+id/myinfo_btn_camera"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.75dp"
+            android:layout_marginTop="29dp"
+            android:layout_below="@id/myinfo_img_profile"
+            android:background="@color/colorFF0CCB54"
+            android:id="@+id/myinfo_img_top_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myinfo_img_top_line"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20.5dp"
+                    android:text="@string/my_account_manage"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:clickable="true"
+                    android:background="@drawable/selector_myinfo_btn_confirm"
+                    android:id="@+id/myinfo_btn_confirm">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textAllCaps="false"
+                        android:text="@string/confirm"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorFFFFFFFF"/>
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:clickable="true"
+                android:id="@+id/myinfo_btn_myinfo">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20.5dp"
+                    android:text="@string/my_info_manage"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <ImageView
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12.75dp"
+                    android:background="@drawable/list_arrow"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:clickable="true"
+                android:id="@+id/myinfo_btn_pw_change">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20.5dp"
+                    android:text="@string/pw_change"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <ImageView
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12.75dp"
+                    android:background="@drawable/list_arrow"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20.5dp"
+                    android:text="@string/login_auto"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <Button
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/selector_btn_alarm_setting"
+                    android:id="@+id/myinfo_btn_auto_login"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:clickable="true"
+                android:id="@+id/myinfo_btn_logout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20.5dp"
+                    android:text="@string/logout"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:clickable="true"
+                android:id="@+id/myinfo_btn_leave">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20.5dp"
+                    android:text="@string/member_leave"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFF2F2F2F"/>
+
+                <Button
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12.75dp"
+                    android:background="@drawable/list_arrow"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorFFCECECE"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorB2000000"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:id="@+id/progress_layer">
+
+    </RelativeLayout>
+
+</FrameLayout>

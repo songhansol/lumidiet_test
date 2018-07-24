@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">Lumidiet</string>
+    <string name="app_name2">MP_Lumidiet</string>
+    <string name="facebook_app_id">1761769457430159</string>
+
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="id">ID</string>
+    <string name="pw">Password</string>
+    <string name="loginadd">Login</string>
+    <string name="login_auto">Auto Login</string>
+    <string name="join">Join</string>
+    <string name="find_pw">Find Password</string>
+    <string name="find_pw_title">Enter your email address</string>
+    <string name="find_pw_body">Temporary password will be sent to your email address\nafter registration.</string>
+    <string name="issue_temporary_pw">Send Temporary Password</string>
+    <string name="find_pw_err_msg">Email address is not confirmed.</string>
+    <string name="find_pw_ok_msg">Temporary password is sent to your inbox.</string>
+
+    <string name="tos_agree">User Agreement Consent(Mandatory)</string>
+    <string name="agree">Agree</string>
+    <string name="id_error">ID is not available.</string>
+    <string name="pw_words">6~16 alphanumeric &amp; special char\\\'s</string>
+    <string name="pw_reconfirm">Password Confirm</string>
+    <string name="pw_error">Between 6 to 16 characters.\nMust contain at least two among letter, number, special characters.</string>
+    <string name="pw_reconfirm_error">Check your password.</string>
+    <string name="next">Next</string>
+    <string name="dupl_check">Verify</string>
+
+    <string name="add_info">Insert additional information</string>
+    <string name="add_info_words">Optional. You can edit in Settings.</string>
+    <string name="age">Age</string>
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="sex">Gender</string>
+
+    <string name="connect_info">Connecting.\nPlease wait.</string>
+
+    <string name="minute">min</string>
+    <string name="minute_en">min</string>
+    <string name="second_en">sec</string>
+    <string name="remain">left.</string>
+    <string name="accum_usage_time">cumulative usage time</string>
+    <string name="usage_time">Usage Time / Steps</string>
+    <string name="consecutive_days">consecutive days used :</string>
+    <string name="maximum_days">most consecutive days used :</string>
+    <string name="ldi">LDI</string>
+    <string name="encourage">Recommended</string>
+    <string name="encourage_day">15</string>
+    <string name="encourage_week">4</string>
+    <string name="encourage_month">15</string>
+    <string name="what_ldi">LDI?</string>
+    <string name="detail">More</string>
+    <string name="measure_ldi">Measure LDI</string>
+    <string name="belt_disconnect">Device is disconnected.</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connect</string>
+
+    <string name="days_graph_top">Daily Usage Time</string>
+    <string name="days_graph_bot">Daily LDI</string>
+    <string name="weeks_graph_top">Weekly Usage Time</string>
+    <string name="weeks_graph_bot">Weekly Average LDI</string>
+    <string name="months_graph_top">Monthly Usage Time</string>
+    <string name="months_graph_bot">Monthly Average LDI</string>
+    <string name="usage_statistics">Usage Statistics</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="average">Average</string>
+    <string name="standard">100</string>
+
+    <string name="notice">Notice</string>
+    <string name="notice_box">Notice</string>
+    <string name="notice_mybox">My Message</string>
+    <string name="notice_mybox_msg">A reply to your inquiry can be\nfound in My Message.</string>
+    <string name="reply">Reply</string>
+
+    <string name="diet_info">Diet Information</string>
+    <string name="product_instructions">Product Manual</string>
+
+    <string name="set_alarm">Set Alarm</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="repetition">Everyday</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="noti_msg">It is time to start LumiDiet!</string>
+
+    <string name="app_info">Application Information</string>
+    <string name="support">Customer Support</string>
+    <string name="support_info">Please send us your question and we will get back to you.\nYou may check My Notice menu.</string>
+    <string name="send">Send</string>
+    <string name="support_success_msg">Your question has been successfully send.</string>
+
+    <string name="my_info_manage_success_msg">Your profile has been successfully changed.</string>
+    <string name="home">Home</string>
+    <string name="my_info">My Profile</string>
+    <string name="my_account_manage">Edit My Account</string>
+    <string name="my_info_manage">Edit My Profile</string>
+    <string name="pw_change">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="confirm">Verify</string>
+    <string name="confirm_not_support">Facebook users cannot access\nverify menu.</string>
+    <string name="confirm_check">Please verify your email address.\nYou can find your password when your email is verified.</string>
+    <string name="confirm_ok">Your email verification is confirmed.\nVerified email address cannot be changed.</string>
+    <string name="send_email_msg">Verify mail is sent to your inbox.</string>
+    <string name="send_email_err_msg">Following ID cannot be used.\nPlease try another one.</string>
+    <string name="apply">Apply</string>
+    <string name="now_pw">Current Password</string>
+    <string name="new_pw">New Password</string>
+    <string name="pw_change_not_support">Facebook users cannot access\npassword change menu.</string>
+    <string name="pw_change_err_1">Current password is not correct.</string>
+    <string name="pw_change_err_2">Check your password.</string>
+    <string name="pw_change_err_3">Your password must contain 6~16 letters,\nusing at least two among\nletters, numbers, special characters.</string>
+    <string name="pw_change_ok_msg">Your password has been successfully changed.</string>
+
+    <string name="member_leave">Delete Your Account</string>
+    <string name="member_leave_title">Notice before deleting your account</string>
+    <string name="member_leave_body">After you delete your account, all information will be deleted,\nand the information cannot be recovered.</string>
+    <string name="member_leave_info_title">Deleted Information</string>
+    <string name="member_leave_info_body">- My Profile (ID, Profile Picture)\n- LDI Data and Usage Statistics\n- Personal Settings</string>
+    <string name="del_all_data">Delete Your Data.</string>
+    <string name="lumidiet_leave">Delete Your Account</string>
+    <string name="member_leave_err_msg1">Current password is not correct.</string>
+    <string name="member_leave_ok_msg">You have successfully deleted your account.\nShutting down application.</string>
+
+    <string name="guide_info">Product manual info</string>
+    <string name="guide_title">Components &amp; Cautions</string>
+    <string name="guide_body">Please check the components.\nPlease refer to product manual for\nmore details on safety.</string>
+    <string name="read_guide">Read product manual.</string>
+    <string name="jump">Skip</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+
+    <string name="login_error1">ID or PW is not correct.</string>
+
+    <string name="confirm_add_history">Non-registered user data exist(s).</string>
+    <string name="confirm_add_history_info">Register selected user data.</string>
+    <string name="alert_unused_week_over">There is no measured LDI\nfor the past week.</string>
+    <string name="alert_low_battery">Low battery.\nPlease charge your device.</string>
+    <string name="change_standard_date">Would you like to reset your reference date?\n</string>
+    <string name="join_message">You are a new member of LUMIDIET.\nFor your convenience, please verify your\nemail address in Profile menu.\nYou cannot reset password\nwithout email verification.</string>
+
+    <string name="id_dupl_chk_possible">ID is available</string>
+    <string name="id_dupl_chk_impossible">ID is not available</string>
+
+    <string name="find_devices_msg">Searched many devices.\nPlease select the device you wish to pair.</string>
+    <string name="find_devices_turnoff_msg">Please turn off the power of the device that is not being used.</string>
+
+    <string name="belt_use_complete_msg1">Congratulations!</string>
+    <string name="belt_use_complete_msg2">You\'ve successfully\ncompleted a session.</string>
+
+    <string name="app_ver_prefix">APP Current Version </string>
+    <string name="app_ver_postfix_last">\nThis is the latest version.</string>
+    <string name="app_ver_postfix_new">\nThe new version is available on the Google Play Store.</string>
+    <string name="firmware_prefix">Current Firmware Version</string>
+    <string name="firmware_postfix">\nThis is the latest version</string>
+    <string name="permission_err">You must set access rights to successfully run an application.</string>
+    <string name="auto_login_not_support">Facebook users cannot access\nauto login menu.</string>
+    <string name="firmware_update_msg">The firmware is not the latest version.\nPlease update to the latest version.\n*DO NOT turn off the power of\nLumiDiet while updating the firmware.</string>
+    <string name="firmware_updating_msg">Firmware Updating. (Estimated time: 1 minute)\nPlease do not turn off the device.</string>
+    <string name="firmware_update_success_msg">Firmware update is\nsuccessfully completed.\nTurn on the power of the device.</string>
+    <string name="firmware_update_err_msg">Firmware update failed.\nPlease retry it.</string>
+
+    <string name="exit_msg">Press \'Back\' button one more time to exit.</string>
+
+    <string name="measure_first_msg">Your first LDI measurement\nhas been completed. This result\nwill be your reference value.</string>
+    <string name="measure_msg">Measuring your LDI.\nPlease wait.</string>
+    <string name="measure_msg_increase">LDI has increased\nsince %1$d/%2$d.\nTry a little more!</string>
+    <string name="measure_msg_decrease">LDI has decreased\nsince %1$d/%2$d.\nCongratulations.</string>
+    <string name="measure">Measure</string>
+    <string name="stop">Stop</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dont_show_again">Don\'t show again</string>
+    <string name="measure_input_err_msg">Please fill in your age/height/weight\ninformation for LDI measurement.</string>
+    <string name="network_err_msg">Network is not connected.</string>
+
+    <string name="unknown_device">Unknown Device</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="get_from_album">Album</string>
+    <string name="photo_shoot">Shoot</string>
+    <string name="camera_dialog_title">Select image to upload</string>
+    <string name="connect_cancel">Cancel</string>
+    <string name="about_ldi">LDI is a unit created by LumiDiet to measure\nindividual relative body fat percentage.</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="weight_unit">kg</string>
+    <string name="height_unit">cm</string>
+    <string name="measure_guide_top">Please hold measuring sensors tightly.</string>
+    <string name="measure_guide_bot">The result may have a margin of error depending on\nmeasurement process, operating environment, and frequency.</string>
+    <string name="diet_info_filename">file:///android_asset/main_en.html</string>
+    <string name="product_info_filename">file:///android_asset/product_en.html</string>
+    <string name="measure_msg_same">LDI has not changed\nsince %1$d/%2$d.\nGood job!</string>
+    <string name="crown_title">Month Statistics (Usage Time)</string>
+    <string name="crown_subtitle">15 minutes a day</string>
+    <string name="crown_msg1">Usage over 15 days = Good</string>
+    <string name="crown_msg2">Usage over 20 days  = \"Great\"</string>
+    <string name="crown_msg3">Usage over 25 days  = \"Excellent\"</string>
+    <string name="exit">Exit</string>
+    <string name="app_update_msg">Your application is not updated.\nPlease update to the latest version.</string>
+    <string name="memory_err">Not enough memory.</string>
+    <string name="contact">(option) phone number or e-mail</string>
+    <string name="move_link_msg">Do you want to go to a web browser?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="set_magnifier">Zoom in setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mag_activation">Activate magnified view</string>
+    <string name="mag_info">If you activate magnified view,\nyou can pinch out with your fingers to\nzoom in the screen.</string>
+    <string name="input_check_msg">Please fill out all fields.</string>
+    <string name="measure_input_err_msg2">Out of range.\nPlease try again.</string>
+    <string name="diet_info_filename2">main_en.html</string>
+    <string name="belt_info">Lumidiet belt information</string>
+    <string name="belt_disconnected">Belt is disconnected.</string>
+    <string name="firmware">Firmware</string>
+    <string name="model">Model</string>
+    <string name="confirm_add_history2">Unchecked data will be deleted.</string>
+    <string name="permission_title1">LumiDiet Access Authorization Information.</string>
+    <string name="permission_body1">LumiDiet requires the following authorization. Please accept to proceed.</string>
+    <string name="permission_title2">Necessary Access Authorization</string>
+    <string name="permission_title3">Optional Access Authorization</string>
+    <string name="permission_title4">Changing Access Authorization</string>
+    <string name="permission_body2">- 블루투스 : 루미다이어트 벨트와 연결\n- 위치 : 블루투스 BLE 검색을 위한 사용(GPS 정보 수집은 하지 않습니다.)\n- ID : 고객 서비스를 위한 기기 정보 확인\n- 기기 및 앱 기록 : 현재 실재중인 앱 확인\n- 캘린더 : 벨트 사용 기록 생성\n- 저장공간 : 프로필 이미지 및 사용 기록 저장</string>
+    <string name="permission_body3">- Photo/video/file: Select gallery profile image\n- Camera: Take profile image photo \n\nSelective access authorization requires access when using the function, if dismissed, other service(s) excluding the function is allowed.</string>
+    <string name="permission_body4">You can change settings at LumiDiet menu > Settings.</string>
+    <string name="belt_auto_connect_title">Lumidiet belt auto connection setting</string>
+    <string name="belt_auto_connect_body1">You can use bluetooth auto-connection for your convenience when launching the application.</string>
+    <string name="belt_auto_connect_body2">Activate auto bluetooth connect</string>
+    <string name="bluetooth_on_title">Bluetooth setting</string>
+    <string name="bluetooth_on_body1">블루투스가 꺼져 있습니다.\n루미다이어트 벨트와 연결하려면 블루투스를 켜야합니다.\n블루투스를 켜고 루미다이어트 벨트와\n연결하시겠습니까?</string>
+    <string name="bluetooth_on_body2">Set on the auto bluetooth connect</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="setting">Setting</string>
+    <string name="set_bluetooth_auto_connect">Bluetooth Auto-Pairing Setting</string>
+    <string name="permission_gallery_title">Photo/Video/File Accessibility</string>
+    <string name="permission_gallery_body">Used to select profile image</string>
+    <string name="permission_camera_title">Camera Accessibility</string>
+    <string name="permission_camera_body">Used to take profile image</string>
+    <string name="ble_auto_activation">Activate Bluetooth Auto-Pairing</string>
+    <string name="ble_auto_info">Activate bluetooth auto-pairing function in order for your application  pairs with your device upon launch. automatically</string>
+    <string name="permission_accept_title">Accept permission</string>
+    <string name="permission_accept_body">In order to upload your profile image for LumDiet application, the following access authorization is required.\n\n- Photo/video/file: Select gallery profile image\n- Camera: Take profile image photo\n\nYou can cancel your authorization at LumiDiet menu > Settings.</string>
+    <string name="register">Register</string>
+
+    <!-- pedometer -->
+    <string name="goal_reached_notification">Goal reached! %s steps and counting</string>
+    <string name="notification_text">Today\'s steps %s</string>
+    <string name="your_progress_will_be_shown_here_soon">Your progress will be shown here soon</string>
+    <string name="notification_title">Pedometor is counting</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="ispaused">Pedometor is paused</string>
+    <string name="no_sensor">Sensor not found</string>
+    <string name="no_sensor_explain">This app requires a dedicated hardware step sensor - which your device does not have.</string>
+    <string name="k_steps_en">k-steps</string>
+    <string name="use_pedometer">Use pedometer</string>
+    <string name="today_stepcount">Today\'s steps</string>
+    <string name="cumulative_stepcount">Accumulated steps</string>
+    <string name="cumulative_ranking">Accumulated rank</string>
+    <string name="pedometer_off">The pedometer is off.</string>
+    <string name="days_graph_pedometer">Daily steps</string>
+    <string name="weeks_graph_pedometer">Weekly steps</string>
+    <string name="months_graph_pedometer">Monthly steps</string>
+    <string name="number_of_steps">Number of steps</string>
+    <string name="rank">Rank</string>
+    <string name="default_goal_steps">5000</string>
+    <string name="goal_steps">Goal steps</string>
+    <string name="enable_pedometer">Pedometor setting</string>
+    <string name="using_the_pedometer">Use pedometer</string>
+</resources>

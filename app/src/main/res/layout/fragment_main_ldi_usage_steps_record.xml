@@ -1,0 +1,310 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center|top"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.MainLDIUsageStepsRecordFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="394.5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21.75dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_ldi_bg"
+            android:id="@+id/main_img_ldi_bg"/>
+
+        <TextView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@id/main_img_ldi_bg"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="-3dp"
+            android:includeFontPadding="false"
+            android:text="@string/ldi"
+            android:textSize="15dp"
+            android:textColor="@color/color992C2C2C"
+            android:id="@+id/main_txt_ldi"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/main_txt_ldi"
+            android:layout_marginTop="19.5dp"
+            android:background="@drawable/common_ldi_icon_dim"
+            android:id="@+id/main_img_ldi_icon"/>
+
+        <TextView
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_img_ldi_icon"
+            android:layout_marginTop="8.5dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="0"
+            android:textSize="32.5dp"
+            android:textColor="@color/color992C2C2C"
+            android:id="@+id/main_txt_ldi_value"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/main_txt_ldi_value"
+            android:layout_marginTop="13dp"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:text="12/25"
+            android:textSize="12.5dp"
+            android:textColor="@color/color992C2C2C"
+            android:id="@+id/main_txt_date"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="384.25dp">
+
+        <RelativeLayout
+            android:id="@+id/main_img_graph_bg"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="44dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="6.75dp"
+                android:background="@color/colorFFCECECE" />
+
+            <TextView
+                android:id="@+id/main_graph_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorFFFFFFFF"
+                android:gravity="center"
+                android:minHeight="0dp"
+                android:minWidth="65dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/usage_time"
+                android:textColor="@color/color992C2C2C"
+                android:textSize="11.25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="35dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vertical_dotted_line_cecece" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0.3dp"
+                android:layout_marginEnd="0.3dp"
+                android:layout_below="@id/main_graph_title"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/main_graph_item1"
+                    layout="@layout/main_graph_item" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/main_graph_item2"
+                    layout="@layout/main_graph_item" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/main_graph_item3"
+                    layout="@layout/main_graph_item" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/main_graph_item4"
+                    layout="@layout/main_graph_item" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/main_graph_item5"
+                    layout="@layout/main_graph_item" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/main_graph_item6"
+                    layout="@layout/main_graph_item" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/main_graph_item7"
+                    layout="@layout/main_graph_item" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/main_img_graph_bg"
+            android:layout_marginRight="8.8dp"
+            android:layout_marginTop="15.5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/minute_en"
+                android:textColor="@color/colorFF00BD47"
+                android:textSize="8dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/k_steps_en"
+                android:textColor="@color/colorFF00BD47"
+                android:textSize="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8.8dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/common_time_icon"
+            android:gravity="center"
+            android:paddingLeft="3dp"
+            android:text="@string/encourage_day"
+            android:textSize="10dp"
+            android:textColor="@color/colorFFFFFFFF"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

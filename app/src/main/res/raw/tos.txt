@@ -1,0 +1,154 @@
+LUMIDIET IoT Health Service Application Terms of Service
+
+LumiDiet, in a word, is diet using lights. The newly developed LumiDiet is a wearable health care device that uses lights to help users with decreasing fat from fat cells (“LumiDiet”). LumiDiet is a device with very sophisticated and trendy design, which does not need any surgical treatment to lose fat. In addition, with a motor-powered vibration added to the device, not only it enables faster elimination of fat cells solved by light penetration, but also gives users higher level of satisfaction through a more vivid performance and fit. LumiDiet measures and displays LumiDiet Index (“LDI”) which is an index, starting at 100, that shows the relative increase or decrease of your body fat percentage through your use of LumiDiet. The device can lead to a better outcome when combined with other exercises such as cardio.
+
+These Terms of Service (these “Terms”) govern your use of our personal fitness and electronic body monitoring product, our website at www. LumiDiet.com, the software embedded in LumiDiet devices, the LumiDiet mobile applications (“LumiDiet Application”), memberships and other LumiDiet services (collectively, the “LumiDiet Services”). Please read these Terms carefully before you use the LumiDiet Services to ensure that you fully understand your rights and obligations in relation to your use of the LumiDiet Services. These Terms constitute the final and conclusive agreement between you as the user (the “User” or “you”) and Double-H Co., Ltd. (the “Company” or “we”). 
+
+We will post of these Terms, our business name, the name of our representative, the business place (including the address of the location where consumer complaints are accepted), telephone number, fax number, email address, business registration number, mail order business filing number, personal information management officer, etc., on the (front) initial screen of the Company’s website or in the LumiDiet Application for easy access by the User; and the details of these Terms may be made available to you through a link.
+
+You must accept these Terms to create a LumiDiet account and to use the LumiDiet Services. If you do not have an account, you accept these Terms by visiting www.lumidiet.com or using any part of the LumiDiet Services. IF YOU DO NOT ACCEPT THESE TERMS, DO NOT CREATE AN ACCOUNT, VISIT WWW.LUMIDIET.COM OR USE THE LUMIDIET SERVICES.
+
+About the Company
+
+Double H is a start-up venture based in Seoul, Korea. Double H aims to provide differentiated wearable health-care devices by combining light therapy technology with ICT technology. We developed and extended the use of LED technology devices, which previously has been utilized mainly for medical purposes, to personal devices not only with very sophisticated and creative design, but also with safety and differentiated functions. We also integrated ICT technology by adding a sensor to the device.
+
+These Terms May Change
+
+These Terms will change over time. If we make minor changes to the Terms without materially changing your rights, we will post the modified Terms on www.lumidiet.com for not less than seven (7) days prior to such modified Terms becoming effective. We will notify you by email, through the LumiDiet Services, or by presenting you with a new Terms of Service to accept if we make a modification that materially changes your rights not less than thirty (30) days prior to the date on which such modified Terms become effective. 
+
+You reserve the right to disagree to the amended Terms, and may suspend your use of the LumiDiet Services in the event that you do not agree to the amended Terms and request for withdrawal; provided that, in the event that you have not expressed your clear intent to decline in a set period of time separately notified by us in our notice, you shall be deemed to have consented to the amended Terms 
+
+Who Can Use LumiDiet?
+
+You may connect to and start using the LumiDiet Services using a device that is manufactured, distributed, or sold by or on behalf of LumiDiet; the LumiDiet Application; the LumiDiet software; approved third-party applications; or www.lumidiet.com (“Authorized Connections”). You may not connect to the LumiDiet Services with any device that is not manufactured, distributed, or sold by or on behalf of LumiDiet (such as a knock off or counterfeit version of a LumiDiet Product); otherwise intends to resemble or purports to be a product manufactured by us; or any unauthorized application or-third party connection. Any violation or attempted violation of this provision may result in the immediate termination of your ability to access the LumiDiet Services. 
+
+Creating an Account
+
+Full use of the LumiDiet Services requires that you create an account by providing us with a valid email address and password. For full use and enjoyment of the LumiDiet Services, you will need to enter in your physical information, including height, weight, age, gender, and LDI after you create your account. You are responsible for all activity that occurs in association with your account. We are not liable for any loss or damages caused by your failure to maintain the confidentiality of your account credentials.
+
+Notwithstanding anything to the contrary contained herein, the Company reserves the right to decline your account registration in its sole discretion. These cases may include without limitation (i) where you previously had your account revoked within the last six (6) months, (ii) where you arbitrarly used another person’s email address,  (iii) where the you provided false information, intentionally or unknowingly, or failed to provide any of the required information, (iv) where the ID, or e-mail address in the application is the same as those of an existing account, (v) where the application is made by a minor less than 14 years old without his/her legal representative’s consent, or (vi) where it has been confirmed that the application has been filed in breach of these Terms or that such application is unlawful or otherwise wrongful, or where the Company reasonably determines it to be necessary.
+
+We may need to contact you about your use of the LumiDiet Services. These communications are part of the LumiDiet Services and you may not opt-out from receiving them. You can manage and opt-out from receiving other communications and keep your email address up-to-date from your account settings.
+
+Necessary Equipment
+
+Full use of the LumiDiet Services is dependent upon your use of a supported mobile device and Internet access. The maintenance and security of this equipment may influence the performance of the LumiDiet Services and it is your responsibility to ensure the equipment’s functionality.
+
+Following your registration for the LumiDiet Services, you may connect the measuring device installed in LumiDiet to the the LumiDiet Services, which would measure your use of LumiDiet and transmit your usage information to a server. The Company may collect and store the information measured and transmitted by such measuring device and use such information for providing better quality of services. 
+
+LumiDiet Content
+
+“LumiDiet Content” includes any text, graphics, images, music, software, audio, video, works of authorship of any kind, and information or other materials that are posted, generated, provided or otherwise made available through the LumiDiet Services to you. LumiDiet Content, the LumiDiet Services and its underlying technology are protected by copyright, trademark, patent, intellectual property, and other applicable laws and regulations. You agree not to remove, change or obscure any copyright, trademark, service mark or other proprietary rights notices incorporated in or accompanying the LumiDiet Services.
+
+User Contents
+
+All intellectual property rights and liabilities of contents posted by a User on the LumiDiet Services (the “User Contents”), including the message board of LumiDiet Application, shall be solely vested in the User.  In the event that the Company determines that any User Content is inappropriate,, including without limitation, where it is defamatory to others, in violation of social norm, related to criminal acts, infringes upon intellectual property rights of others, unrelated to the LumiDiet Services, pornographic, interferes with the Company’s business, untrue, exaggerated, or in violation of relevant laws and regulations, the Company may remove the User Contents permanently or temporarily. 
+
+In the event that any of the User Contents violates the applicable laws and regulations, including the Act on Promotion of Information and Communications Network Utilization and Information Protection, Etc. and Copyrights Act, the Company shall take the appropriate measures in accordance with the relevant laws and regulations, irrespective of whether an infringed party has demanded the Company to do so. Specific measures and procedures under these Terms relating to the User Contents shall be in accordance with the Company’s internal rules and policies to the extent not in breach of the relevant laws and regulations. 
+
+What You Can Do on the LumiDiet Services
+
+The LumiDiet Services is intended for your personal, non-commercial use.
+
+LumiDiet grants you a limited, non-exclusive, non-transferable, non-sublicensable license to (1) access and view the LumiDiet Content, (2) access and use the software and LumiDiet Application, and (3) use the software that is embedded into LumiDiet products as authorized in these Terms. This license is provided solely for your personal use and enjoyment of the LumiDiet Services as permitted in these Terms.
+
+You will not use, copy, adapt, modify, prepare derivative works based upon, distribute, license, sell, transfer, publicly display, publicly perform, transmit, broadcast or otherwise exploit LumiDiet, LumiDiet Content, LumiDiet Services or any portion thereof, except as expressly permitted in these Terms. No licenses or rights are granted to you by implication or otherwise under any intellectual property rights owned or controlled by LumiDiet or its licensors, except for the licenses and rights expressly granted in these Terms.
+
+Things You Cannot Do on the LumiDiet Services
+
+Except to the extent permitted by law, you may not perform, attempt to perform, or encourage or assist others in performing any of the following while accessing or using the LumiDiet Services: (1) use, display, mirror or frame the LumiDiet Services or any individual element within the LumiDiet Services, LumiDiet’s name, any LumiDiet trademark, logo or other proprietary information, or the layout and design of any page or form contained on a page, without LumiDiet’s express written consent; (2) access or tamper with non-public areas of the LumiDiet Services, LumiDiet’s systems; (3) test the vulnerability of any LumiDiet system or breach any security or authentication measures; (4) circumvent any technological measure implemented by LumiDiet or any of LumiDiet’s providers or any other third party (including another user) to protect the LumiDiet Services or LumiDiet Content; (5) access the LumiDiet Services or LumiDiet Content through the use of any mechanism other than through the use of an Authorized Connection, LumiDiet Services or LumiDiet Application; (6) modify, decompile, disassemble, reverse engineer, tamper with or otherwise attempt to derive the source code of any software that LumiDiet provides to you or any other part of the LumiDiet Services; or (7) post any inappropriate contents on the message board of LumiDiet Application (including, without limitation, any pornographic, commercial or otherwise unlawful contents).
+
+Our Enforcement Rights
+
+We are not obligated to monitor access or use of the LumiDiet Services, LumiDiet Content, or to review or edit any LumiDiet Content, but we have the right to do so for the purpose of operating the LumiDiet Services, to ensure compliance with these Terms, and to comply with applicable law or other legal requirements. We may consult with and disclose unlawful conduct to law enforcement authorities; and pursuant to valid legal process, we may cooperate with law enforcement authorities to prosecute users who violate the law. We reserve the right (but are not required) to remove or disable access to the LumiDiet Services and any LumiDiet Content at any time and without notice, and at our sole discretion, if we determine that your use of the LumiDiet Services is objectionable or in violation of these Terms. We have the right to investigate violations of these Terms and any conduct that affects the LumiDiet Services.
+
+Use the LumiDiet Services at Your Own Risk
+
+Our goal is to provide helpful and accurate information on the LumiDiet Services, but we make no endorsement, representation or warranty of any kind about any LumiDiet Services. The accuracy of the data collected and presented through the LumiDiet Services is not intended to match that of medical devices or scientific measurement devices.
+
+We are not responsible for the accuracy, reliability, effectiveness, or correct use of information you receive through the LumiDiet Services. Maps, directions, and other GPS or navigation data, including data relating to your current location, may be unavailable, inaccurate or incomplete. If you rely on any LumiDiet Content or the LumiDiet Services, you do so solely at your own risk.
+
+Consult Your Doctor before Using the LumiDiet Services
+
+The LumiDiet Services is not intended to diagnose, treat, cure, or prevent any disease. If you have a medical or heart condition, consult your doctor before using the LumiDiet Services, engaging in an exercise program or changing your diet. If you experience a medical emergency, stop using the LumiDiet Services and consult with a medical professional. If you engage in any exercise program you receive or learn about through the LumiDiet Services you agree that you do so at your own risk and are voluntarily participating in these activities.
+
+Prolonged contact with wearable devices may contribute to skin irritation or allergies in some users. To reduce irritation, follow four simple wear and care tips: (1) keep it clean; (2) keep it dry; (3) don’t wear it too tight, and (4) give your wrist a rest by removing the band for an hour after extended wear. For more information visit www.LumiDiet.com or refer to the product manual of LumiDiet. If you notice any skin irritation, remove your device immediately. If symptoms persist longer than 2-3 days after removing the device, consult your doctor.
+
+Additional Policies Apply To Product Orders
+
+LumiDiet’s terms of sale and return policy and warranty apply to purchases made through the LumiDiet store at www.LumiDiet.com. All orders placed are subject to LumiDiet’s acceptance. We may accept, decline, or place limits on your order for any reason.
+
+Feedback and Submissions Policy
+
+If you submit comments, ideas, or feedback to us, you agree that we can use them without any restriction or compensation to you. We do not waive any rights to use similar or related ideas or feedback previously known to us, developed by LumiDiet, or obtained from sources other than you. 
+
+You Agree to Receive Alerts and Notifications
+
+As part of your use of the LumiDiet Services, you may receive notifications, alerts, or emails. You agree to the receipt of these communications. You can control receipt of non-service related communications from your account settings. You are responsible for any messaging or data fees you may be charged by your wireless carrier.
+
+We Are Not Responsible for Third-Party Links on the LumiDiet Services
+
+The LumiDiet Services contains links to third-party websites, apps, services and resources (collectively “Third-Party Services”) that are not under LumiDiet’s control. We provide these links only as a convenience and are not responsible for the content, products or services that are available from Third-Party Services. You acknowledge sole responsibility and assume all risk arising from your use of any Third-Party Services.
+
+Changes to the LumiDiet Services
+
+The Company may, with prior notice to the extent possible through the Company’s website or the LumiDiet Application, change or discontinue, temporarily or permanently, any feature or component of the LumiDiet Services at any time without any liabilities to you in the event that a reasonable cause for such change and/or discontinuance arises, including any changes to the Company’s policy or when necessary technologically. The Company is not liable to you or to any third party for any modification, suspension or discontinuance of any feature or component of the LumiDiet Services, except where such damages are caused willfully or negligently by the Company. We reserve the right to determine the timing and content of software updates, which may be automatically downloaded and installed by LumiDiet products without prior notice to you.
+
+Termination
+
+If you violate these Terms, we reserve the right to deactivate your account or terminate these Terms, at our sole discretion, at any time and without notice or liability to you. These cases may include, without limitation, (i) where any of the grounds for refusal of account acceptance set forth herein is discovered subsequently, (ii) where you engaged in any acts which infringe upon the right, reputation, honor, credit or other legitimate interest of the Company, another members, or any other persons, or (iii) where you have otherwise carried out acts which is in breach of these Terms and the Company’s posted policy. Upon any such termination, we may delete any content or information related to your account after notice of such termination to you by e-mail, or other means. 
+
+You may terminate the agreement for use of the LumiDiet Services at any time with notice to the Company in a manner prescribed by the Company, and you shall bear any and all liabilities and disadvantages which may arise out of such termination. Upon the termination of the agreement for use, the Company may recover any supplemental benefits which were provided to you in connection with your use of the LumiDiet Services.
+
+Upon any termination, discontinuation or cancellation of the LumiDiet Services or your account, the following provisions of these Terms will survive: 
+
+Disclaimers
+
+THE LUMIDIET SERVICES AND LUMIDIET CONTENT ARE PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND. WITHOUT LIMITING THE FOREGOING, WE EXPLICITLY DISCLAIM ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. We make no warranty that the LumiDiet Services or LumiDiet Content will meet your requirements or be available on an uninterrupted, secure, or error-free basis. We make no warranty regarding the quality, accuracy, timeliness, truthfulness, completeness or reliability of the LumiDiet Services or any LumiDiet Content. You acknowledge and agree that if you rely on any LumiDiet Content or the LumiDiet Services, you do so solely at your own risk.
+
+Indemnity
+
+You will indemnify and hold harmless the Company and its officers, directors, employees and agents, from and against any claims, disputes, demands, liabilities, damages, losses, and costs and expenses, including, without limitation, reasonable attorneys’ fees arising out of or in any way connected with (i) your access to or use of the LumiDiet Services or (ii) your breach of any warranties made by you hereunder or your violation of any other provision of these Terms. We reserve the right to assume control of the defense of any third-party claim that is subject to indemnification by you, in which event you will cooperate with us in asserting any available defenses.
+
+Limitation of Liability
+
+NEITHER LUMIDIET, ITS SUPPLIERS OR LICENSORS, NOR ANY OTHER PARTY INVOLVED IN CREATING, PRODUCING, OR DELIVERING THE LUMIDIET SERVICES WILL BE LIABLE FOR ANY INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOSS OF DATA OR GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE OR SYSTEM FAILURE OR THE COST OF SUBSTITUTE SERVICES ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE LUMIDIET SERVICES, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT LUMIDIET HAS BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, EVEN IF A LIMITED REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+IN NO EVENT WILL LUMIDIET’S TOTAL LIABILITY ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE LUMIDIET SERVICES EXCEED THE AMOUNTS YOU HAVE PAID TO LUMIDIET FOR USE OF THE LUMIDIET SERVICE.
+
+THE EXCLUSIONS AND LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN THE COMPANY AND YOU.
+
+Dispute Resolution
+
+You agree that any dispute between you and the Company arising out of or relating to these Terms, the LumiDiet Services, or any other LumiDiet products or services (collectively, “Disputes”) will be governed by the procedure outlined below.
+
+Governing Law: The Terms of Service and the resolution of any Disputes shall be governed by and construed in accordance with the laws of Korea without regard to its conflict of laws principles.
+
+Informal Dispute Resolution: We want to address your concerns without needing a formal legal case. Before filing a claim against the Company, you agree to try to resolve the Dispute informally by contacting [contact@LumiDiet.com]. We'll try to resolve the Dispute informally by contacting you through email. If a dispute is not resolved, you or the Company may bring a formal proceeding.
+
+No Class Actions: You may only resolve Disputes with the Company on an individual basis, and may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action. Class arbitrations, class actions, private attorney general actions, and consolidation with other arbitrations aren't allowed under our agreement.
+
+Judicial Forum for Disputes: You and the Company agree that any judicial proceeding in connection with the Disputes will be brought in the court in with competent jurisdiction as prescribed by the Civil Procedure Act of Korea. Both you and the Company consent to venue and personal jurisdiction there. You and the Company both agree to waive our right to a jury trial.
+
+General Terms
+
+Except as otherwise stated herein, these Terms constitute the entire and exclusive understanding and agreement between the Company and you regarding the LumiDiet Services, and these Terms supersede and replace any and all prior oral or written understandings or agreements between the Company and you regarding the LumiDiet Services and LumiDiet Content. If for any reason a court of competent jurisdiction finds any provision of these Terms invalid or unenforceable, that provision will be enforced to the maximum extent permissible and the other provisions of these Terms will remain in full force and effect.
+
+You may not assign or transfer these Terms, by operation of law or otherwise, without the Company’s prior written consent. Any attempt by you to assign or transfer these Terms, without such consent, will be null. The Company may freely assign or transfer these Terms without restriction. Subject to the foregoing, these Terms will bind and inure to the benefit of the parties, their successors and permitted assigns.
+
+Any notices or other communications provided by the Company under these Terms, including those regarding modifications to these Terms, will be given: (i) via email; or (ii) by posting to the LumiDiet Services. For notices made by e-mail, the date of receipt on the message will be deemed the date on which such notice is transmitted.
+
+The Company’s failure to enforce any right or provision of these Terms will not be considered a waiver of such right or provision. The waiver of any such right or provision will be effective only if in writing and signed by a duly authorized representative of the Company. Except as expressly set forth in these Terms, the exercise by either party of any of its remedies under these Terms will be without prejudice to its other remedies under these Terms or otherwise.
+
+Additional Terms May Apply
+
+Additional terms may apply to certain products or services. In the event that there is a conflict between these Terms and any additional terms, the additional terms will control.
+
+Contact Us
+
+PLEASE CONTACT US IF YOU HAVE ANY QUESTIONS ABOUT THESE TERMS.
+Double H
+Tel : [+82-70-4618-6265] 
+e-Mail : [yjkim@lumidiet.com]
+Address: [Toegyero 36gil 2, Choong-gu, Dongkuk University Choongmuro-kwan new bldg., suite 306, Seoul,South Korea 04626]
+

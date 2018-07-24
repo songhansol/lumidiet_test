@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false"
+        android:drawable="@drawable/menu_graph_nor"/>
+
+    <item android:state_pressed="true"
+        android:drawable="@drawable/menu_graph_tap"/>
+
+</selector>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item android:drawable="@drawable/connect_ani1" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani2" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani3" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani4" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani5" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani6" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani7" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani8" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani9" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani10" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani11" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani12" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani13" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani14" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani15" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani16" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani17" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani18" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani19" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani20" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani21" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani22" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani23" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani24" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani25" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani26" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani27" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani28" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani29" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani30" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani31" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani32" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani33" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani34" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani35" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani36" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani37" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani38" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani39" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani40" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani41" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani42" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani43" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani44" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani45" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani46" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani47" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani48" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani49" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani50" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani51" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani52" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani53" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani54" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani55" android:duration="50" />
+    <item android:drawable="@drawable/connect_ani56" android:duration="50" />
+
+</animation-list>

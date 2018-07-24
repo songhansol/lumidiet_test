@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item android:drawable="@drawable/main_circle_ani1" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani2" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani3" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani4" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani5" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani6" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani7" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani8" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani9" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani10" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani11" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani12" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani13" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani14" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani15" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani16" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani17" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani18" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani19" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani20" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani21" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani22" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani23" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani24" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani25" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani26" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani27" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani28" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani29" android:duration="50" />
+    <item android:drawable="@drawable/main_circle_ani30" android:duration="50" />
+
+</animation-list>

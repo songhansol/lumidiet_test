@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="92.25dp"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/popup_appup_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="15dp"
+            android:text="@string/app_update_msg"
+            android:lineSpacingExtra="6dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="62.5dp"
+        android:layout_below="@id/popup_appup_bg"
+        android:background="@color/colorFF0CCB54">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_btn_left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/update"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/popup_appup_bg"
+            android:layout_weight="1"
+            android:id="@+id/popup_btn_right">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_bottom_vline"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/exit"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

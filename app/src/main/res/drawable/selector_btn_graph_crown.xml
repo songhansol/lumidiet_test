@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item app:crown_state_one="false"
+        app:crown_state_two="false"
+        android:drawable="@drawable/graph_btn_good"/>
+
+    <item app:crown_state_one="true"
+        app:crown_state_two="false"
+        android:drawable="@drawable/graph_great_btn"/>
+
+    <item app:crown_state_one="true"
+        app:crown_state_two="true"
+        android:drawable="@drawable/graph_excellent_btn"/>
+
+</selector>

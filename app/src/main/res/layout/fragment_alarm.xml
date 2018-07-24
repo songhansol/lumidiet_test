@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.AlarmFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/alarm_btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:text="@string/set_alarm"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53.5dp"
+            android:layout_marginTop="97dp"
+            android:text="@string/am"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/meridiem"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115.5dp"
+            android:layout_marginTop="85.25dp"
+            android:text="12:00"
+            android:textSize="37.5dp"
+            android:textColor="@color/colorFF2F2F2F"
+            android:id="@+id/time_textview"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/time_textview"
+            android:layout_marginRight="19.75dp"
+            android:background="@drawable/selector_btn_alarm_setting"
+            android:id="@+id/alarm_btn_alarm_setting"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="136.5dp"
+            android:background="@color/colorFFCECECE"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="161.25dp"
+            android:layout_marginLeft="19.25dp"
+            android:text="@string/repetition"
+            android:textSize="15dp"
+            android:textColor="@color/colorFF2F2F2F"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="191.5dp"
+            android:gravity="center">
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_alarm_day"
+                android:text="@string/sun"
+                android:textSize="15dp"
+                android:textColor="@color/colorFF2F2F2F"
+                android:id="@+id/sunday"/>
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/selector_btn_alarm_day"
+                android:text="@string/mon"
+                android:textSize="15dp"
+                android:textColor="@color/colorFF2F2F2F"
+                android:id="@+id/monday"/>
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/selector_btn_alarm_day"
+                android:text="@string/tue"
+                android:textSize="15dp"
+                android:textColor="@color/colorFF2F2F2F"
+                android:id="@+id/tuesday"/>
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/selector_btn_alarm_day"
+                android:text="@string/wed"
+                android:textSize="15dp"
+                android:textColor="@color/colorFF2F2F2F"
+                android:id="@+id/wednesday"/>
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/selector_btn_alarm_day"
+                android:text="@string/thu"
+                android:textSize="15dp"
+                android:textColor="@color/colorFF2F2F2F"
+                android:id="@+id/thursday"/>
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/selector_btn_alarm_day"
+                android:text="@string/fri"
+                android:textSize="15dp"
+                android:textColor="@color/colorFF2F2F2F"
+                android:id="@+id/friday"/>
+
+            <Button
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/selector_btn_alarm_day"
+                android:text="@string/sat"
+                android:textSize="15dp"
+                android:textColor="@color/colorFF2F2F2F"
+                android:id="@+id/saturday"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorB2000000"
+        android:id="@+id/popup_layer"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+</FrameLayout>

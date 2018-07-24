@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFFFFFFFF"
+        android:id="@+id/popup_timepicker">
+
+        <com.doubleh.lumidiet.utils.LumiTimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:timePickerMode="spinner"
+            android:id="@+id/time_picker"/>
+        
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="62.5dp"
+            android:layout_below="@id/time_picker"
+            android:background="@color/colorFF0CCB54"
+            android:id="@+id/popup_timepicker_btn_ok">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/ok"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="29.67dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/fragment_main_ldi_usage_steps_record">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main_txt_graph_usage_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="0dp"
+            android:minWidth="23dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/color992C2C2C"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/main_txt_graph_step_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="0dp"
+            android:minWidth="23dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/colorFFA7A8A9"
+            android:textSize="9dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_graph_height"
+        android:layout_marginTop="2dp">
+
+        <RelativeLayout
+            android:id="@+id/main_rlayout_graph"
+            android:layout_width="7.5dp"
+            android:layout_height="@dimen/main_graph_height"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:id="@+id/main_img_graph_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/selector_graph_bar"
+                android:minHeight="0dp"
+                android:minWidth="0dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_rlayout_graph_pedometer"
+            android:layout_width="7.5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="2.5dp"
+            android:layout_toRightOf="@id/main_rlayout_graph">
+
+            <ImageView
+                android:id="@+id/main_img_graph_bar_pedometer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/selector_pedometer_graph_bar"
+                android:minHeight="0dp"
+                android:minWidth="0dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/main_txt_pedometer_bubble_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/main_rlayout_graph_pedometer"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/selector_graph_bubble_bg"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorFFFFFFFF"
+            android:textSize="9dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/main_txt_graph_days"
+        android:layout_width="30dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="2.75dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="12/25"
+        android:textColor="@color/color992C2C2C"
+        android:textSize="9dp" />
+</LinearLayout>

@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">Lumidiet</string>
+    <string name="app_name2">MP_Lumidiet</string>
+    <string name="facebook_app_id">1761769457430159</string>
+
+    <string name="login_facebook">Facebook ile giriş</string>
+    <string name="id">Kullanıcı adı</string>
+    <string name="pw">Şifre</string>
+    <string name="loginadd">Oturumu açın</string>
+    <string name="login_auto">Otomatik giriş</string>
+    <string name="join">Kayıt ol</string>
+    <string name="find_pw">Şifremi bul.</string>
+    <string name="find_pw_title">E-posta adresinizi girin</string>
+    <string name="find_pw_body">Kayıt işleminden sonra geçici şifre e-posta edresinize\ngönderilecektir.</string>
+    <string name="issue_temporary_pw">Geçici şifre gönder</string>
+    <string name="find_pw_err_msg">E-posta adresi doğrulanmadı.</string>
+    <string name="find_pw_ok_msg">Geçici şifte e-posta adresinize gönderildi.</string>
+
+    <string name="tos_agree">Hizmet Şartlarını Kabul Etmek (gerekli)</string>
+    <string name="agree">Onayla</string>
+    <string name="id_error">Kullanıcı adı geçersiz.</string>
+    <string name="pw_words">En az iki harf/sayı/ kullanarak 6~16 harf</string>
+    <string name="pw_reconfirm">Şifrenizi kontrol edin.</string>
+    <string name="pw_error">Şifre 6 ile 16 karakter arasında olmalıdır.\nŞifre harf, sayı ve özel karakterlerden en az ikisini içermelidir.</string>
+    <string name="pw_reconfirm_error">Şifrenizi kontrol edin.</string>
+    <string name="next">İleri</string>
+    <string name="dupl_check">Doğrula</string>
+
+    <string name="add_info">Kişisel bilgilerinizi ekleyiniz.</string>
+    <string name="add_info_words">Opsiyonel. Ayarlardan değiştirebilirsiniz.</string>
+    <string name="age">Yaş</string>
+    <string name="height">Boy (cm)</string>
+    <string name="weight">Kilo (kg)</string>
+    <string name="sex">Cinsiyet</string>
+
+    <string name="connect_info">Bağlanıyor.\nLütfen biraz bekleyin.</string>
+
+    <string name="minute_en">min</string>
+    <string name="second_en">sec</string>
+    <string name="remain">kaldı.</string>
+    <string name="accum_usage_time">Birikimsel kullanım süreci</string>
+    <string name="usage_time">Süre</string>
+    <string name="consecutive_days">Ardışık Kullanım Günü :</string>
+    <string name="maximum_days">En Çok Ardışık Kullanım Günü :</string>
+    <string name="ldi">LDI</string>
+    <string name="encourage">Önerilen</string>
+    <string name="encourage_day">"15 "</string>
+    <string name="encourage_week">4 gün</string>
+    <string name="encourage_month">15 gün</string>
+    <string name="what_ldi">LDI?</string>
+    <string name="detail">Daha</string>
+    <string name="measure_ldi">LDI ölçümü</string>
+    <string name="belt_disconnect">Aygıta bağlanılamıyor.\nLütfen tekrar deneyin.</string>
+    <string name="connect">Bağlantı</string>
+    <string name="connecting">Bağlan</string>
+
+    <string name="days_graph_top">Günlük kullanım zamanı</string>
+    <string name="days_graph_bot">Günlük LDI</string>
+    <string name="weeks_graph_top">Haftalık kullanım zamanı</string>
+    <string name="weeks_graph_bot">Haftalık ortalama LDI</string>
+    <string name="months_graph_top">Aylık kullanım zamanı</string>
+    <string name="months_graph_bot">Aylık ortalama LDI</string>
+    <string name="usage_statistics">Kullanım istatistikleri</string>
+    <string name="day">Gün</string>
+    <string name="week">Hafta</string>
+    <string name="month">Ay</string>
+    <string name="year">Yıl</string>
+    <string name="average">Ortalama</string>
+    <string name="standard">100</string>
+
+    <string name="notice">Bildirim</string>
+    <string name="notice_box">Bildirim</string>
+    <string name="notice_mybox">Mesajım</string>
+    <string name="notice_mybox_msg">Sorularınıza verilen cevaplar Bildirimlerim \nsayfasında bulabilirsiniz.</string>
+    <string name="reply">Cevap</string>
+
+    <string name="diet_info">Diyet bilgileri</string>
+    <string name="product_instructions">Ürün kullanma kılavuzu</string>
+
+    <string name="set_alarm">Alarmı ayarlama</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="repetition">Her gün</string>
+    <string name="sun">Paz</string>
+    <string name="mon">Pts</string>
+    <string name="tue">Sal</string>
+    <string name="wed">Çar</string>
+    <string name="thu">Per</string>
+    <string name="fri">Cum</string>
+    <string name="sat">Cts</string>
+    <string name="noti_msg">LumiDiet\'ini kullanmak için tam zamanı!</string>
+
+    <string name="app_info">Uygulama bilgileri</string>
+    <string name="support">Müşteri desteği</string>
+    <string name="send">Gönder</string>
+    <string name="support_success_msg">Sorularınız başarıyla gönderildi.</string>
+
+    <string name="my_info_manage_success_msg">Profiliniz başarıyla değiştirildi.</string>
+    <string name="home">Giriş</string>
+    <string name="my_info">Profilim</string>
+    <string name="my_account_manage">Hesabımı düzenle</string>
+    <string name="my_info_manage">Profilimi düzenle</string>
+    <string name="pw_change">Şifreyi değiştir</string>
+    <string name="logout">Oturumu kapat</string>
+    <string name="confirm">Doğrula</string>
+    <string name="confirm_not_support">Doğrulama menüsü Facebook kullanıcıları\niçin mevcut değildir.</string>
+    <string name="confirm_check">E-posta edresinizi doğrulayın.\nE-posta doğrulandığında şifrenizi bulabilirsiniz.</string>
+    <string name="confirm_ok">E-posta doğrulamanız onaylandı. \nDoğrulanmış e-posta adresi değiştirilemez.</string>
+    <string name="send_email_msg">Doğrulama isteği e-postanıza gönderildi.</string>
+    <string name="send_email_err_msg">Daha önce doğrulanmış e-posta adresidir. \nLütfen başka bir tane deneyin.</string>
+    <string name="apply">Uygula</string>
+    <string name="now_pw">Şimdiki şifre</string>
+    <string name="new_pw">Yeni şifre</string>
+    <string name="pw_change_not_support">Facebook kullanıcıları şifre değiştirme \nözelliğine erişemez.</string>
+    <string name="pw_change_err_1">Şifre doğru değil.</string>
+    <string name="pw_change_err_2">Şifrenizi \nkontrol edin</string>
+    <string name="pw_change_err_3">Şifre 6 ile 16 karakter arasında olmalıdır. \nŞifre harf, sayı ve özel \nkarakterlerden en az ikisini içermelidir.</string>
+    <string name="pw_change_ok_msg">Şifreniz başarıyla değiştirildi.</string>
+
+    <string name="member_leave">Hasabı sil</string>
+    <string name="member_leave_title">Hesabınızı silmeden önce dikkat edin</string>
+    <string name="member_leave_body">Hesabınızı sildikten sonra,\ntüm bilgiler silinir ve silinen bilgiler geri alınamaz.</string>
+    <string name="member_leave_info_title">Hasabı silme hakkında bilgiler</string>
+    <string name="member_leave_info_body">- Profilim (Kullanıcı adı, Profil resim)\n- LDI verileri ve Kullanım istatistikleri\n- Kişisel ayarlar</string>
+    <string name="del_all_data">Tüm verileri silin.</string>
+    <string name="lumidiet_leave">Hesabı sil</string>
+    <string name="member_leave_err_msg1">Şifre doğru değil.</string>
+    <string name="member_leave_ok_msg">Hesabınız silindi. \nUygulama kapatılıyor.</string>
+
+    <string name="guide_info">Kullanım kılavuzu</string>
+    <string name="guide_title">Bileşenler &amp; Önlemler</string>
+    <string name="guide_body">Bileşenleri kontrol edin. \nGüvenlikle ilgili önemli bilgiler içeren ürünün \nkullanım kılavuzunu mutlaka okuyun.</string>
+    <string name="read_guide">Kullanım Kılavuzu</string>
+    <string name="jump">Atla</string>
+    <string name="ok">OK</string>
+    <string name="cancel">İptal</string>
+    <string name="update">Güncelleme</string>
+
+    <string name="login_error1">Kullanıcı adı veya\nşifre doğru değil.</string>
+
+    <string name="confirm_add_history">Kayıtlı olmayan kullanıcı verileri mevcut</string>
+    <string name="confirm_add_history_info">Seçilen kullanıcı verilerini kaydedin.</string>
+    <string name="alert_unused_week_over">Geçen bir hafta\nboyunca LDI ölcülmedi.</string>
+    <string name="alert_low_battery">Pil gücü azaldı.\nCihazınızı şarj edip tekrar kullanın.</string>
+    <string name="change_standard_date">Referans tarih resetlensin mi?\n</string>
+    <string name="join_message">Yeni LUMIDIET üyeliğinizi kutlarız. \nSorunsuz hizmet için lütfen profil \nmenüsüne e-posta adresinizi doğrulayın. \nE-posta adresinizi doğrulamadan \nşifrenizi yenileyemezsiniz.</string>
+
+    <string name="id_dupl_chk_possible">Kullanıcı adı kullanılabilir.</string>
+    <string name="id_dupl_chk_impossible">Kullanıcı adı kullanılamaz.</string>
+
+    <string name="find_devices_msg">Birden fazla cihaz bulundu.\nİstediğiniz cihazı seçin.</string>
+    <string name="find_devices_turnoff_msg">Kullanılmayan cihazı kapatın.</string>
+
+    <string name="belt_use_complete_msg1">Tebrik ederiz!</string>
+    <string name="belt_use_complete_msg2">Seansı başarıyla\ntamamladınız.</string>
+
+    <string name="app_ver_prefix">APP Güncel sürümü </string>
+    <string name="app_ver_postfix_last">\nEn güncel sürümü kullanıyorsunuz.</string>
+    <string name="app_ver_postfix_new">\nYeni sürümü Google Play Store\'da bulabilirsiniz.</string>
+    <string name="firmware_prefix">Yazılımı geçerli sürüm</string>
+    <string name="firmware_postfix">\nEn güncel sürümü kullanıyorsunuz.</string>
+    <string name="permission_err">Uygulamayı düzgün çalıştırmak için erişim izinlerini ayarlamanız gerekir.</string>
+    <string name="auto_login_not_support">Facebook kullanıcıları otomatik giriş özelliğine erişemez.</string>
+    <string name="firmware_update_msg">Ürünün yazılımı son sürümü değildir.\nEn yeni sürüme güncelleyin.\n*Yazılım güncellenirken cihazı\nasla kapatmayın.</string>
+    <string name="firmware_updating_msg">Yazılım güncelleniyor (Yaklaşık 1dakika).\nLütfen cihazı kapatmayın.</string>
+    <string name="firmware_update_success_msg">Cihazın yazılım \ngüncellendi.\nCihazı açın.</string>
+    <string name="firmware_update_err_msg">Yazılım güncellenmesi başarınız.\nLütfen tekrar deneyin.</string>
+
+    <string name="exit_msg">Çıkmak için \'Geri\' düğmesine bir kez daha basın.</string>
+
+    <string name="measure_first_msg">İlk LDI ölçümünüz tamamlandı. \nBu sonuç, referans \ndeğeriniz olacaktır.</string>
+    <string name="measure_msg">LDI ölçülüyor. \nLütfen biraz bekleyin.</string>
+    <string name="measure_msg_increase">\'tarihi\'nden beri\nLDI arttı%1$d/%2$d.\n biraz daha çaba gösterin.</string>
+    <string name="measure_msg_decrease">\'tarihi\'nden beri\nLDI azaldı %1$d/%2$d.\nTebrikler!</string>
+    <string name="measure">Ölçüm</string>
+    <string name="stop">Durdu</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="dont_show_again">Tekrar gösterme</string>
+    <string name="measure_input_err_msg">Lütfen tüm \nalanları \ndoldurun.</string>
+    <string name="network_err_msg">Ağa bağlı degil.</string>
+
+    <string name="unknown_device">Bilinmeyen aygıt</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="get_from_album">Albüm</string>
+    <string name="photo_shoot">Fotoğraf çekim</string>
+    <string name="camera_dialog_title">Yüklenecek resmi seçin</string>
+    <string name="connect_cancel">İptal</string>
+    <string name="about_ldi">LDI, vücudun belirli bir kısmında vücut yağındaki ilgili \ndeğişikliği ve vücut yağ yüzdesini gösteren bir LumiDiet indeksidir.</string>
+    <string name="title">Başlık</string>
+    <string name="contents">İçerikler</string>
+    <string name="weight_unit">kg</string>
+    <string name="height_unit">cm</string>
+    <string name="measure_guide_top">Ölçüm sensörünü sıkıca tutun.</string>
+    <string name="measure_guide_bot">Sonuçlarda ölçüm yöntemi, \nçevre şartları ve frekansa bağlı hatalar oluşabilir.</string>
+    <string name="diet_info_filename">file:///android_asset/main_tr.html</string>
+    <string name="product_info_filename">file:///android_asset/product_tr.html</string>
+    <string name="measure_msg_same">\'tarihi\'nden beri\nLDI aynı%1$d/%2$d.\nTebrikler!</string>
+    <string name="crown_title">Aylık istatistikler (Kullanım süresi)</string>
+    <string name="crown_subtitle">Günde 15 dakika</string>
+    <string name="crown_msg1">15 günden fazla kullanma = İyi</string>
+    <string name="crown_msg2">20 günden fazla kullanma = \"Çok iyi\"</string>
+    <string name="crown_msg3">25 günden fazla kullanma = \"Mükemmel\"</string>
+    <string name="exit">Çıkış</string>
+    <string name="app_update_msg">Uygulamanız güncel değil. \nLütfen en son sürüme güncelleyin.</string>
+    <string name="memory_err">Yeterli bellek yok.</string>
+    <string name="contact">(isteğe bağlı) telefon numarası veya e-posta</string>
+    <string name="move_link_msg">Web adresine gitmek ister misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="set_magnifier">Yakınlaştırma ayarı</string>
+
+    <string name="mag_activation">Büyütmeyi etkinleştir</string>
+    <string name="mag_info">Büyüteç özelliğini etkinleştiriseniz, \niki parmağınızı ekranın üzerinde sürükleyerek \nbüyütülmüş halde ekranı görebilirsiniz.</string>
+    <string name="input_check_msg">Lütfen tüm alanları doldurun.</string>
+    <string name="measure_input_err_msg2">Kapsama alanı dışında.\nLütfen tekrar deneyin.</string>
+    <string name="diet_info_filename2">main_tr.html</string>
+    <string name="belt_info">LumiDiet Cihaz Bilgisi</string>
+    <string name="belt_disconnected">Kemeriniz bağlı değil.</string>
+    <string name="firmware">Yazılım</string>
+    <string name="model">Model</string>
+    <string name="confirm_add_history2">Seçilmemiş kullanıcı verileri silinir.</string>
+    <string name="permission_title1">루미 다이어트 접근권한 안내</string>
+    <string name="permission_body1">루미다이어트에서는 다음과 같이 권한들을 사용하오니, 허용해 주시기 바랍니다.</string>
+    <string name="permission_title2">필수적 접근권한</string>
+    <string name="permission_title3">선택적 접근권한</string>
+    <string name="permission_title4">접근권한 변경 방법</string>
+    <string name="permission_body2">- 블루투스 : 루미다이어트 벨트와 연결\n- 위치 : 블루투스 BLE 검색을 위한 사용(GPS 정보 수집은 하지 않습니다.)\n- ID : 고객 서비스를 위한 기기 정보 확인\n- 기기 및 앱 기록 : 현재 실재중인 앱 확인\n- 캘린더 : 벨트 사용 기록 생성\n- 저장공간 : 프로필 이미지 및 사용 기록 저장</string>
+    <string name="permission_body3">- 사진/영상/파일 : 갤러리 프로필 이미지 선택\n- 카메라 : 프로필 이미지 촬영\n\n선택적 접근권한은 해당 기능을 사용할 때 허용이 필요하며, 비 허용시에도 해당 기능 외 서비스 이용이 가능합니다.</string>
+    <string name="permission_body4">루미다이어트 메뉴 > 설정 에서 변경 가능합니다.</string>
+    <string name="belt_auto_connect_title">Lumidiet belt auto connection setting</string>
+    <string name="belt_auto_connect_body1">루미다이어트 앱을 실행 할 때,\n자동으로 블루투스를 켜서 루미다이어트 벨트를\n연결할 수 있도록 설정하시면\n보다 편리하게 이용 하실 수 있습니다.</string>
+    <string name="belt_auto_connect_body2">Activate auto bluetooth connect</string>
+    <string name="bluetooth_on_title">Bluetooth setting</string>
+    <string name="bluetooth_on_body1">블루투스가 꺼져 있습니다.\n루미다이어트 벨트와 연결하려면 블루투스를 켜야합니다.\n블루투스를 켜고 루미다이어트 벨트와\n연결하시겠습니까?</string>
+    <string name="bluetooth_on_body2">Set on the auto bluetooth connect</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="setting">Ayar</string>
+    <string name="set_bluetooth_auto_connect">Bluetooth Otomatik Eşleştirme Ayarı</string>
+    <string name="permission_gallery_title">Fotoğraf/Video/DosyaErişimi</string>
+    <string name="permission_gallery_body">Profil resmini seçmek için kullanılır</string>
+    <string name="permission_camera_title">Kameraya Erişilebilirlik</string>
+    <string name="permission_camera_body">Profil resmini çekmek için kullanılır</string>
+    <string name="ble_auto_activation">Bluetooth Otomatik Eşleştirme\'yi etkinleştirin</string>
+    <string name="ble_auto_info">Uygulamanızın başlatılması üzerine cihazınızla eşleşmesi için bluetooth otomatik eşleştirme işlevini etkinleştirin. otomatik olarak</string>
+    <string name="permission_accept_title">Accept permission</string>
+    <string name="permission_accept_body">루미다이어트 앱에 프로필 이미지를 등록하기 위하여는 다음 접근권한에 동의가 필요합니다.\n\n-사진/영상/파일 : 갤러리 프로필 이미지 선택\n-카메라 : 프로필 이미지 촬영\n\n루미다이어트 메뉴 > 설정  에서 동의 철회가  가능합니다.</string>
+    <string name="register">Register</string>
+    <string name="minute">min</string>
+    <string name="support_info">Sorularınızı bize gönderdiğinizde sorularınıza karşılık cevaplarla beraber size geri döneceğiz. Bildirimlerim menüsünde cevaplarınızı görebilirsiniz.</string>
+
+    <!-- pedometer -->
+</resources>

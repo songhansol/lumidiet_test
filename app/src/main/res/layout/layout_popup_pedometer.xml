@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_box_ffffff" >
+
+        <LinearLayout
+            android:id="@+id/popup_pedometer_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPeriod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="0.3dp"
+                android:maxLines="1"
+                android:text="0625~0702"
+                android:textColor="@color/colorFF54565A"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pedometer_walk"/>
+
+                <TextView
+                    android:id="@+id/tvSteps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="6dp"
+                    android:text="1234"
+                    android:textColor="@color/colorFF00AE42"
+                    android:textSize="21.5dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/colorFFA7A8A9"
+                    android:textSize="10dp"
+                    android:text="@string/number_of_steps"
+                    android:lineSpacingExtra="6dp"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pedometer_crown" />
+
+                <TextView
+                    android:id="@+id/tvRanking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="6dp"
+                    android:text="13"
+                    android:textColor="@color/colorFF00AE42"
+                    android:textSize="21.5dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/colorFFA7A8A9"
+                    android:textSize="10dp"
+                    android:text="@string/rank"
+                    android:lineSpacingExtra="6dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="65.8dp"
+            android:layout_marginStart="13.8dp"
+            android:layout_marginEnd="13.8dp"
+            android:layout_marginBottom="16.8dp"
+            android:layout_below="@id/popup_pedometer_detail">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/popup_btn_ok"
+                android:background="@drawable/selector_btn_popup_ok" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/ok"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorFFFFFFFF"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

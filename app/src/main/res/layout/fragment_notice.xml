@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    tools:context="com.doubleh.lumidiet.NoticeFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/activity_width"
+        android:layout_height="@dimen/activity_height"
+        android:background="@color/colorFFFFFFFF">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10.25dp"
+            android:background="@drawable/common_prev_btn"
+            android:id="@+id/notice_btn_prev"/>
+
+        <TextView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/notice"
+            android:textColor="@color/colorFF2F2F2F"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:id="@+id/notice_llayout_tap">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_notice_tap_left"
+                android:clickable="true"
+                android:id="@+id/notice_btn_box">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/notice_box"
+                    android:textColor="@color/colorFF5A5050"
+                    android:textSize="12.5dp"
+                    android:id="@+id/notice_txt_box"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_notice_tap_right"
+                android:clickable="true"
+                android:id="@+id/notice_btn_mybox">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/notice_mybox"
+                    android:textColor="@color/colorFF5A5050"
+                    android:textSize="12.5dp"
+                    android:id="@+id/notice_txt_mybox"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/notice_llayout_tap"
+            android:layout_marginTop="22.5dp"
+            android:background="@color/colorFFCECECE"
+            android:id="@+id/notice_img_line"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/notice_img_line"
+            android:layout_marginTop="237.25dp"
+            android:gravity="center"
+            android:text="@string/notice_mybox_msg"
+            android:textSize="12.5dp"
+            android:textColor="@color/colorFF2C2C2C"
+            android:lineSpacingExtra="5dp"
+            android:id="@+id/notice_txt_mybox_msg"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/notice_img_line"
+            android:divider="@color/colorFFCECECE"
+            android:dividerHeight="0.5dp"
+            android:id="@+id/notice_listview"/>
+
+       <WebView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="85.5dp"
+           android:visibility="invisible"
+           android:clickable="true"
+           android:isScrollContainer="true"
+           android:id="@+id/webview"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

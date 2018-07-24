@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_width"
+    android:layout_height="@dimen/activity_height"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="111.75dp"
+        android:background="@color/colorFFFFFFFF"
+        android:focusable="false"
+        android:id="@+id/history_top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33.75dp"
+            android:gravity="center"
+            android:text="@string/confirm_add_history"
+            android:textSize="12.5dp"
+            android:focusable="false"
+            android:textColor="@color/colorFF2F2F2F"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            android:gravity="center"
+            android:text="@string/confirm_add_history_info"
+            android:textSize="11.25dp"
+            android:focusable="false"
+            android:textColor="@color/colorFFFF3C00" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:focusable="false"
+            android:background="@color/colorFFCECECE"/>
+
+    </RelativeLayout>
+
+    <com.doubleh.lumidiet.utils.LumiListView
+        android:layout_width="335dp"
+        android:layout_height="129.25dp"
+        android:layout_below="@id/history_top"
+        android:divider="@color/colorFFCECECE"
+        android:dividerHeight="0.5dp"
+        android:background="@color/colorFFFFFFFF"
+        android:focusable="true"
+        android:id="@+id/history_listview"/>
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="50.75dp"
+        android:background="@color/colorFFFFFFFF"
+        android:layout_below="@id/history_listview"
+        android:focusable="false"
+        android:id="@+id/history_bot">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:focusable="false"
+            android:background="@color/colorFFCECECE"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24.25dp"
+            android:src="@drawable/selector_btn_agree"
+            android:id="@+id/history_del_chk"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="54.25dp"
+            android:gravity="center"
+            android:text="@string/confirm_add_history2"
+            android:textSize="12.5dp"
+            android:focusable="false"
+            android:textColor="@color/colorFF2F2F2F"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="62.5dp"
+        android:layout_below="@id/history_bot"
+        android:background="@color/colorFF0CCB54">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_btn_ok">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/register"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/popup_btn_cancel">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_bottom_vline"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/cancel"
+                android:textSize="20dp"
+                android:textColor="@color/colorFFFFFFFF"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="62.5dp"
+        android:layout_below="@id/history_bot"
+        android:background="@color/colorFF0CCB54"
+        android:clickable="true"
+        android:focusable="false"
+        android:id="@+id/history_btn_apply">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/apply"
+            android:textSize="20dp"
+            android:focusable="false"
+            android:textColor="@color/colorFFFFFFFF"/>
+
+    </RelativeLayout>-->
+
+</RelativeLayout>
